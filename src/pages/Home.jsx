@@ -1,5 +1,6 @@
 import React from 'react'
 import { Box, Container, Heading, Text } from '@chakra-ui/react';
+// import Navbar from "../components/Navbar";
 
 const Home = () => {
   return (
