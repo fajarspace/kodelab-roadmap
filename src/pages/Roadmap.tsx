@@ -1,49 +1,42 @@
 import React from 'react'
-import { Container, Stack, Spacer, Box, Heading, Text, Center, Wrap, WrapItem } from '@chakra-ui/react'
+import { Container, Stack, Spacer, Box, Heading, Text, Center, Wrap, WrapItem, Badge } from '@chakra-ui/react'
 import { Link } from "react-router-dom";
 
 const Roadmap = () => {
   return (
     <>
-      <Box bg='#0C041D'>
+
+      <Box bg='#120A21'>
         <Container maxW="container.md" pt="50px" pb="100px">
-          <Wrap spacing='30px' justify='space-around'>
+          <Badge m={3} ml='1' colorScheme='green'>
+            Role
+          </Badge>
+          <Wrap spacing='30px' justify='space-between'>
             <WrapItem>
               <Link to="/">
-                <Box rounded='10px' p={5} w='230px' h='120px' bg='#1E182D' color='white'>
+                <Box rounded='10px' p={3} w='200px' h='120px' bg='#231B30' color='white'>
                   <Heading size='md'>Frontend</Heading>
-                  <Text size='sm' color='gray.200'>step by step untuk menjadi Frontend developer</Text>
+                  <Text size='sm' color='gray.300'>step by step untuk menjadi Frontend developer</Text>
                 </Box>
               </Link>
             </WrapItem>
             <WrapItem>
               <Link to="/">
-                <Box rounded='10px' p={5} w='230px' h='120px' bg='#1E182D' color='white'>
+                <Box rounded='10px' p={3} w='200px' h='120px' bg='#231B30' color='white'>
                   <Heading size='md'>Backend</Heading>
-                  <Text size='sm' color='gray.200'>step by step untuk menjadi Backend developer</Text>
+                  <Text size='3px' color='gray.300'>step by step untuk menjadi Backend developer</Text>
                 </Box>
               </Link>
             </WrapItem>
             <WrapItem>
-              <Center w='180px' h='80px' bg='green.200'>
-                Box 2
-              </Center>
+              <Link to="/">
+                <Box rounded='10px' p={3} w='200px' h='120px' bg='#231B30' color='white'>
+                  <Heading size='md'>DevOps</Heading>
+                  <Text size='sm' color='gray.300'>step by step untuk menjadi DevOps developer</Text>
+                </Box>
+              </Link>
             </WrapItem>
-            <WrapItem>
-              <Center w='180px' h='80px' bg='tomato'>
-                Box 3
-              </Center>
-            </WrapItem>
-            <WrapItem>
-              <Center w='180px' h='80px' bg='blue.200'>
-                Box 4
-              </Center>
-            </WrapItem>
-            <WrapItem>
-              <Center w='180px' h='80px' bg='blackAlpha.500'>
-                Box 5
-              </Center>
-            </WrapItem>
+
           </Wrap>
         </Container>
       </Box>
