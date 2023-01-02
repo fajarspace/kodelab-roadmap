@@ -18,24 +18,26 @@ const Navbar = () => {
           </li>
         </ul>
       </nav> */}
-      <Container pt={5} pb={5} maxW="container.md">
-        <Flex minWidth='max-content' alignItems='center' gap='2'>
-          <Box p='2'>
-            <Link to="/">
-              <Heading size='md'>Kodelab</Heading>
-            </Link>
-          </Box>
-          <Spacer />
-          {/* <ButtonGroup gap='2'>
+      <Box bg='#0C041D' color='white'>
+        <Container pt={5} pb={5} maxW="container.md">
+          <Flex minWidth='max-content' alignItems='center' gap='2'>
+            <Box p='2'>
+              <Link to="/">
+                <Heading size='md'>Kodelab</Heading>
+              </Link>
+            </Box>
+            <Spacer />
+            {/* <ButtonGroup gap='2'>
             <Button colorScheme='teal'>Sign Up</Button>
             <Button colorScheme='teal'>Log in</Button>
           </ButtonGroup> */}
-          <Link to="/roadmaps">
-            <Text as='b'>Roadmaps</Text>
-          </Link>
-          <Link to="/blogs">Blogs</Link>
-        </Flex>
-      </Container>
+            <Link to="/roadmaps">
+              <Text as='b'>Roadmaps</Text>
+            </Link>
+            <Link to="/blogs">Blogs</Link>
+          </Flex>
+        </Container>
+      </Box>
       <Outlet />
     </>
   )
