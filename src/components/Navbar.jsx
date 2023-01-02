@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Flex, Spacer, Box, Heading, Button, ButtonGroup } from '@chakra-ui/react'
+import { Container, Flex, Spacer, Box, Heading, Button, ButtonGroup, Text } from '@chakra-ui/react'
 import { Outlet, Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -24,10 +24,14 @@ const Navbar = () => {
             <Heading size='md'>Chakra App</Heading>
           </Box>
           <Spacer />
-          <ButtonGroup gap='2'>
+          {/* <ButtonGroup gap='2'>
             <Button colorScheme='teal'>Sign Up</Button>
             <Button colorScheme='teal'>Log in</Button>
-          </ButtonGroup>
+          </ButtonGroup> */}
+          <Link to="/">
+            <Text as='b'>Bold</Text>
+          </Link>
+          <Link to="/blogs">Blogs</Link>
         </Flex>
       </Container>
       <Outlet />

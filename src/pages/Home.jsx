@@ -5,7 +5,7 @@ import { Box, Container, Heading, Text } from '@chakra-ui/react';
 const Home = () => {
   return (
     <>
-      <Box bg='tomato'>
+      <Box bg='#0C041D'>
         <Container maxW="container.md" pb="90px" centerContent>
           <Box py={['23px', '23px', '35px']} color="gray.200">
             <Heading
