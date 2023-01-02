@@ -34,7 +34,7 @@ const Navbar = () => {
             <Link to="/roadmaps">
               <Text as='b'>Roadmaps</Text>
             </Link>
-            <Link to="/blogs">Get Started</Link>
+            <Link to="/">Get Started</Link>
           </Flex>
         </Container>
       </Box>

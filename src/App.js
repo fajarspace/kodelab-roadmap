@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 // import Layout from "./pages/Layout";
 import Home from "./pages/Home.tsx";
-import Roadmap from "./pages/Roadmap.tsx";
+import Roadmap from "./pages/roadmaps/Roadmap.tsx";
 // import Contact from "./pages/Contact";
 import NoPage from "./pages/NoPage.tsx";
 import Navbar from "./components/Navbar.tsx";

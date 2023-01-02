@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Stack, Spacer, Box, Heading, Text, Center, Wrap, WrapItem, Badge } from '@chakra-ui/react'
+import { Container, Box, Heading, Text, Wrap, WrapItem, Badge } from '@chakra-ui/react'
 import { Link } from "react-router-dom";
 
 const Roadmap = () => {
