@@ -2,11 +2,11 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 // import Layout from "./pages/Layout";
-import Home from "./pages/Home";
-// import Blogs from "./pages/Blogs";
+import Home from "./pages/Home.tsx";
+import Roadmap from "./pages/Roadmap.tsx";
 // import Contact from "./pages/Contact";
-import NoPage from "./pages/NoPage";
-import Navbar from "./components/Navbar";
+import NoPage from "./pages/NoPage.tsx";
+import Navbar from "./components/Navbar.tsx";
 
 export default function App() {
   return (
@@ -14,8 +14,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Navbar />}>
           <Route index element={<Home />} />
-          {/* <Route path="blogs" element={<Blogs />} />
-          <Route path="contact" element={<Contact />} /> */}
+          <Route path="roadmaps" element={<Roadmap />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>

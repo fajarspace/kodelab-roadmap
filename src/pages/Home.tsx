@@ -25,6 +25,7 @@ const Home = () => {
             </Text>
           </Box>
 
+
         </Container>
       </Box>
     </>
