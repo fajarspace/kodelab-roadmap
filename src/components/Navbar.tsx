@@ -18,8 +18,8 @@ const Navbar = () => {
           </li>
         </ul>
       </nav> */}
-      <Container maxW="container.md">
-        <Flex minWidth='max-content' justifyContent='space-between' alignItems='center' gap='2'>
+      <Container pt={5} pb={5} maxW="container.md">
+        <Flex minWidth='max-content' alignItems='center' gap='2'>
           <Box p='2'>
             <Link to="/">
               <Heading size='md'>Kodelab</Heading>
