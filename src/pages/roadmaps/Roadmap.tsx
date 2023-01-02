@@ -39,6 +39,39 @@ const Roadmap = () => {
 
           </Wrap>
         </Container>
+
+        <Container maxW="container.md" pb="100px">
+          <Badge m={3} ml='1' colorScheme='green'>
+            Skill
+          </Badge>
+          <Wrap spacing='30px' justify='space-between'>
+            <WrapItem>
+              <Link to="/">
+                <Box rounded='10px' p={3} w='200px' h='120px' bg='#231B30' color='white'>
+                  <Heading size='md'>React</Heading>
+                  <Text size='sm' color='gray.300'>step by step untuk belajar React developer</Text>
+                </Box>
+              </Link>
+            </WrapItem>
+            <WrapItem>
+              <Link to="/">
+                <Box rounded='10px' p={3} w='200px' h='120px' bg='#231B30' color='white'>
+                  <Heading size='md'>Javascript</Heading>
+                  <Text size='3px' color='gray.300'>step by step untuk belajar Javascript developer</Text>
+                </Box>
+              </Link>
+            </WrapItem>
+            <WrapItem>
+              <Link to="/">
+                <Box rounded='10px' p={3} w='200px' h='120px' bg='#231B30' color='white'>
+                  <Heading size='md'>Node.js</Heading>
+                  <Text size='sm' color='gray.300'>step by step untuk belajar Node.js developer</Text>
+                </Box>
+              </Link>
+            </WrapItem>
+
+          </Wrap>
+        </Container>
       </Box>
     </>
   )
