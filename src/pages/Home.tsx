@@ -1,5 +1,6 @@
 import React from 'react'
-import { Box, Container, Heading, Text } from '@chakra-ui/react';
+import { Box, Container, Heading, Text } from '@chakra-ui/react'
+import BannerGithub from '../components/BannerGithub.tsx'
 // import Navbar from "../components/Navbar";
 
 const Home = () => {
@@ -24,9 +25,10 @@ const Home = () => {
               path and guide their learnings.
             </Text>
           </Box>
-
-
         </Container>
+      </Box>
+      <Box>
+        <BannerGithub />
       </Box>
     </>
   )
