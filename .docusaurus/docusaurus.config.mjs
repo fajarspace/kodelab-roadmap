@@ -4,8 +4,8 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "My Site",
-  "tagline": "Dinosaurs are cool",
+  "title": "Kodelab",
+  "tagline": "Tempat nya tutor koding berbahasa indonesia!",
   "url": "https://your-docusaurus-test-site.com",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
@@ -26,7 +26,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/Users/fajarspace/Documents/github/my-website/sidebars.js",
+          "sidebarPath": "/Users/fajarspace/Documents/github/kodelab-roadmap/sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": {
@@ -34,16 +34,16 @@ export default {
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
-          "customCss": "/Users/fajarspace/Documents/github/my-website/src/css/custom.css"
+          "customCss": "/Users/fajarspace/Documents/github/kodelab-roadmap/src/css/custom.css"
         }
       }
     ]
   ],
   "themeConfig": {
     "navbar": {
-      "title": "My Site",
+      "title": "Kodelab",
       "logo": {
-        "alt": "My Site Logo",
+        "alt": "Kodelab Logo",
         "src": "img/logo.svg"
       },
       "items": [
@@ -109,7 +109,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2023 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2023 Kodelab, Inc. Built with Docusaurus."
     },
     "prism": {
       "theme": {
