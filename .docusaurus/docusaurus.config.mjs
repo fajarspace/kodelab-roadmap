@@ -34,7 +34,7 @@ export default {
           "editUrl": "https://github.com/fajarspace/kodelab-roadmap/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
-          "customCss": "/Users/fajarspace/Documents/github/kodelab-roadmap/src/css/custom.css"
+          "customCss": "/Users/fajarspace/Documents/github/kodelab-roadmap/static/css/custom.css"
         }
       }
     ]
@@ -62,59 +62,23 @@ export default {
           "to": "/docs/category/roadmaps",
           "label": "Roadmaps",
           "position": "left"
-        },
-        {
-          "href": "https://github.com/fajarspace/kodelab-roadmap/",
-          "label": "GitHub",
-          "position": "right"
         }
       ],
       "hideOnScroll": false
     },
     "footer": {
-      "style": "dark",
-      "links": [
-        {
-          "title": "Docs",
-          "items": [
-            {
-              "label": "Tutorial",
-              "to": "/docs/intro"
-            }
-          ]
-        },
-        {
-          "title": "Community",
-          "items": [
-            {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
-            },
-            {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
-            },
-            {
-              "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
-            }
-          ]
-        },
-        {
-          "title": "More",
-          "items": [
-            {
-              "label": "Blog",
-              "to": "/blog"
-            },
-            {
-              "label": "GitHub",
-              "href": "https://github.com/fajarspace/kodelab-roadmap"
-            }
-          ]
-        }
-      ],
-      "copyright": "Copyright © 2023 Kodelab, Inc."
+      "copyright": "Copyright © 2023 Kodelab, Inc.",
+      "style": "light",
+      "links": []
+    },
+    "algolia": {
+      "appId": "Z42AWJI8QO",
+      "apiKey": "455f5ddbc728b8846b1c43e74329fced",
+      "indexName": "kodelab",
+      "contextualSearch": true,
+      "placeholder": "cari tutor..",
+      "searchParameters": {},
+      "searchPagePath": "search"
     },
     "prism": {
       "theme": {
@@ -319,15 +283,6 @@ export default {
           }
         }
       ]
-    },
-    "algolia": {
-      "appId": "Z42AWJI8QO",
-      "apiKey": "455f5ddbc728b8846b1c43e74329fced",
-      "indexName": "kodelab",
-      "contextualSearch": true,
-      "placeholder": "cari tutor..",
-      "searchParameters": {},
-      "searchPagePath": "search"
     },
     "colorMode": {
       "defaultMode": "light",

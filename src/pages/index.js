@@ -21,8 +21,20 @@ function HomepageHeader() {
             Get started
           </Link>
         </div>
+        <br />
+        <span className={styles.indexCtasGitHubButtonWrapper}>
+          <iframe
+            className={styles.indexCtasGitHubButton}
+            src="https://ghbtns.com/github-btn.html?user=fajarspace&amp;repo=kodelab-roadmap&amp;type=star&amp;count=true&amp;size=large"
+            width={160}
+            height={30}
+            title="GitHub Stars"
+          />
+        </span>
+
       </div>
-    </header>
+    </header >
+
   );
 }
 
@@ -31,7 +43,7 @@ export default function Home() {
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="Tempat nya tutor koding berbahasa indonesia! <head />">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
