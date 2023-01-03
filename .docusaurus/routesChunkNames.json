@@ -186,6 +186,12 @@
     },
     "content": "content---markdown-page-393-028"
   },
+  "/search-0b8": {
+    "__comp": "__comp---theme-search-page-1-a-4-d6f",
+    "__context": {
+      "plugin": "plugin---search-254-fcd"
+    }
+  },
   "/docs-2ef": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {

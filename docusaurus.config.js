@@ -18,7 +18,7 @@ module.exports = {
 const config = {
   title: 'Kodelab',
   tagline: 'Tempat nya tutor koding berbahasa indonesia!',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'http://localhost:3000/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -135,6 +135,15 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+
+      algolia: {
+        appId: 'X2RCFQ9TGA',
+        apiKey: '3b7db69e9b04520436b783d975531f7c',
+        indexName: 'kodelab',
+        contextualSearch: true,
+
+        algoliaOptions: {} // Optional, if provided by Algolia
       },
     }),
 };
