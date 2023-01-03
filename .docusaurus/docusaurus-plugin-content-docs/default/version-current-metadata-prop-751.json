@@ -95,10 +95,43 @@
           }
         ],
         "href": "/docs/category/roadmaps"
+      },
+      {
+        "type": "category",
+        "label": "C++",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "intro",
+            "href": "/docs/c++/intro",
+            "docId": "c++/intro"
+          },
+          {
+            "type": "link",
+            "label": "cpp",
+            "href": "/docs/c++/cpp",
+            "docId": "c++/cpp"
+          }
+        ],
+        "href": "/docs/category/c"
       }
     ]
   },
   "docs": {
+    "c++/cpp": {
+      "id": "c++/cpp",
+      "title": "cpp",
+      "description": "Printing pada console",
+      "sidebar": "tutorialSidebar"
+    },
+    "c++/intro": {
+      "id": "c++/intro",
+      "title": "intro",
+      "description": "Cara kerja C++",
+      "sidebar": "tutorialSidebar"
+    },
     "intro": {
       "id": "intro",
       "title": "Tutorial Intro",

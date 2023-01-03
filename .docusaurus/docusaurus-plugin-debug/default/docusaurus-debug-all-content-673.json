@@ -20,6 +20,56 @@
           "contentPathLocalized": "/Users/fajarspace/Documents/github/kodelab-roadmap/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
+              "unversionedId": "c++/cpp",
+              "id": "c++/cpp",
+              "title": "cpp",
+              "description": "Printing pada console",
+              "source": "@site/docs/c++/cpp.md",
+              "sourceDirName": "c++",
+              "slug": "/c++/cpp",
+              "permalink": "/docs/c++/cpp",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/c++/cpp.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "intro",
+                "permalink": "/docs/c++/intro"
+              }
+            },
+            {
+              "unversionedId": "c++/intro",
+              "id": "c++/intro",
+              "title": "intro",
+              "description": "Cara kerja C++",
+              "source": "@site/docs/c++/intro.md",
+              "sourceDirName": "c++",
+              "slug": "/c++/intro",
+              "permalink": "/docs/c++/intro",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/c++/intro.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "C++",
+                "permalink": "/docs/category/c"
+              },
+              "next": {
+                "title": "cpp",
+                "permalink": "/docs/c++/cpp"
+              }
+            },
+            {
               "unversionedId": "intro",
               "id": "intro",
               "title": "Tutorial Intro",
@@ -63,6 +113,10 @@
               "previous": {
                 "title": "Roadmaps",
                 "permalink": "/docs/category/roadmaps"
+              },
+              "next": {
+                "title": "C++",
+                "permalink": "/docs/category/c"
               }
             },
             {
@@ -363,6 +417,27 @@
                   "type": "generated-index",
                   "slug": "/category/roadmaps",
                   "permalink": "/docs/category/roadmaps"
+                }
+              },
+              {
+                "type": "category",
+                "label": "C++",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "c++/intro"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "c++/cpp"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/c",
+                  "permalink": "/docs/category/c"
                 }
               }
             ]

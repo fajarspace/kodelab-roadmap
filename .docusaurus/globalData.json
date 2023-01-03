@@ -11,6 +11,16 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "c++/cpp",
+              "path": "/docs/c++/cpp",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "c++/intro",
+              "path": "/docs/c++/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "intro",
               "path": "/docs/intro",
               "sidebar": "tutorialSidebar"
@@ -73,6 +83,11 @@
             {
               "id": "/category/roadmaps",
               "path": "/docs/category/roadmaps",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/c",
+              "path": "/docs/category/c",
               "sidebar": "tutorialSidebar"
             }
           ],

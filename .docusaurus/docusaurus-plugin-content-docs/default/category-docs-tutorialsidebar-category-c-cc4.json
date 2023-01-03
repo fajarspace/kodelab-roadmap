@@ -1,0 +1,15 @@
+{
+  "title": "C++",
+  "slug": "/category/c",
+  "permalink": "/docs/category/c",
+  "navigation": {
+    "previous": {
+      "title": "Frontend",
+      "permalink": "/docs/roadmap/Frontend"
+    },
+    "next": {
+      "title": "intro",
+      "permalink": "/docs/c++/intro"
+    }
+  }
+}

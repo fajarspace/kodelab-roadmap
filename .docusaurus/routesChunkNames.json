@@ -149,12 +149,24 @@
       "plugin": "2542bc8b"
     }
   },
-  "/docs-58e": {
+  "/docs-6ab": {
     "__comp": "1be78505",
     "__context": {
       "plugin": "c1a54b90"
     },
     "versionMetadata": "935f2afb"
+  },
+  "/docs/c++/cpp-358": {
+    "__comp": "17896441",
+    "content": "75497a53"
+  },
+  "/docs/c++/intro-20b": {
+    "__comp": "17896441",
+    "content": "d9f5f131"
+  },
+  "/docs/category/c-879": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "3a4d3890"
   },
   "/docs/category/roadmaps-ee4": {
     "__comp": "14eb3368",

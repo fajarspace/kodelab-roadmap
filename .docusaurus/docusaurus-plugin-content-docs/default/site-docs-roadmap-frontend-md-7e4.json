@@ -19,5 +19,9 @@
   "previous": {
     "title": "Roadmaps",
     "permalink": "/docs/category/roadmaps"
+  },
+  "next": {
+    "title": "C++",
+    "permalink": "/docs/category/c"
   }
 }

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "c++/intro",
+  "id": "c++/intro",
+  "title": "intro",
+  "description": "Cara kerja C++",
+  "source": "@site/docs/c++/intro.md",
+  "sourceDirName": "c++",
+  "slug": "/c++/intro",
+  "permalink": "/docs/c++/intro",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/c++/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "C++",
+    "permalink": "/docs/category/c"
+  },
+  "next": {
+    "title": "cpp",
+    "permalink": "/docs/c++/cpp"
+  }
+}

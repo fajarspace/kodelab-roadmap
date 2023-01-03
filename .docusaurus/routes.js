@@ -69,8 +69,26 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '58e'),
+    component: ComponentCreator('/docs', '6ab'),
     routes: [
+      {
+        path: '/docs/c++/cpp',
+        component: ComponentCreator('/docs/c++/cpp', '358'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/c++/intro',
+        component: ComponentCreator('/docs/c++/intro', '20b'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/category/c',
+        component: ComponentCreator('/docs/category/c', '879'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
       {
         path: '/docs/category/roadmaps',
         component: ComponentCreator('/docs/category/roadmaps', 'ee4'),
