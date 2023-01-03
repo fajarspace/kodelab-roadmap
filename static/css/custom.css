@@ -5,6 +5,14 @@
  */
 
 /* You can override the default Infima variables here. */
+
+/* .navbar {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  box-shadow: none;
+} */
+
 :root {
   --ifm-color-primary: #5C99D7;
   --ifm-color-primary-dark: #29784c;
