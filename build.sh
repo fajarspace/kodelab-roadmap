@@ -1,17 +1,17 @@
 #!/bin/bash
 
-echo -e "pull last repo first, if any edited"
-git pull
-
-echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
-
 npm run build
 
 docker run -it --env-file=.env -e "CONFIG=$(cat algolia.config.json | jq -r tostring)" algolia/docsearch-scraper
 
 # cd public
 
-git add -A
+echo -e "pull last repo first, if any edited"
+git pull
+
+echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
+
+git add .
 
 msg="rebuilding site `date`"
 if [ $# -eq 1 ]
@@ -21,6 +21,6 @@ git commit -m "$msg"
 
 git push origin master
 
-npm run serve
+# npm run serve
 
 cd ..

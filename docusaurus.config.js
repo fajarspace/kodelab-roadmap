@@ -4,17 +4,6 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
-/** @type {import('@docusaurus/types').Config} */
-module.exports = {
-  title: 'My site',
-  // ...
-  themes: ['@docusaurus/theme-search-algolia'],
-  themeConfig: {
-    algolia: {
-      contextualSearch: true,
-    },
-  },
-};
 const config = {
   title: 'Kodelab',
   tagline: 'Tempat nya tutor koding berbahasa indonesia!',
@@ -80,8 +69,9 @@ const config = {
             label: 'Tutorial',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
+          { to: '/roadmap', label: 'Roadmaps', position: 'left' },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/fajarspace/kodelab-roadmap/',
             label: 'GitHub',
             position: 'right',
           },
@@ -130,7 +120,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Kodelab, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Kodelab, Inc.`,
       },
       prism: {
         theme: lightCodeTheme,
@@ -141,7 +131,8 @@ const config = {
         appId: 'Z42AWJI8QO',
         apiKey: '455f5ddbc728b8846b1c43e74329fced',
         indexName: 'kodelab',
-        contextualSearch: true
+        contextualSearch: true,
+        placeholder: 'cari tutor..'
       },
     }),
 };

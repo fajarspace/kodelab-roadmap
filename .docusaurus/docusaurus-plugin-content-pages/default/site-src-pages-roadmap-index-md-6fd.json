@@ -1,0 +1,10 @@
+{
+  "type": "mdx",
+  "permalink": "/roadmap/",
+  "source": "@site/src/pages/roadmap/index.md",
+  "title": "Markdown page example",
+  "description": "Docusaurus blogging features are powered by the blog plugin.",
+  "frontMatter": {
+    "title": "Markdown page example"
+  }
+}

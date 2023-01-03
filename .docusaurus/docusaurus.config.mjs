@@ -59,7 +59,12 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
+          "to": "/roadmap",
+          "label": "Roadmaps",
+          "position": "left"
+        },
+        {
+          "href": "https://github.com/fajarspace/kodelab-roadmap/",
           "label": "GitHub",
           "position": "right"
         }
@@ -109,7 +114,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2023 Kodelab, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2023 Kodelab, Inc."
     },
     "prism": {
       "theme": {
@@ -320,6 +325,7 @@ export default {
       "apiKey": "455f5ddbc728b8846b1c43e74329fced",
       "indexName": "kodelab",
       "contextualSearch": true,
+      "placeholder": "cari tutor..",
       "searchParameters": {},
       "searchPagePath": "search"
     },
