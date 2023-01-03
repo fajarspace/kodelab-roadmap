@@ -18,7 +18,7 @@ module.exports = {
 const config = {
   title: 'Kodelab',
   tagline: 'Tempat nya tutor koding berbahasa indonesia!',
-  url: 'https://kodelab-road.netlify.app/',
+  url: 'https://kodelab.netlify.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
