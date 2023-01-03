@@ -1,0 +1,28 @@
+{
+  "unversionedId": "c++/printing-pada-console",
+  "id": "c++/printing-pada-console",
+  "title": "Printing pada console",
+  "description": "#incluce  Library deklarasi I/O pada C++",
+  "source": "@site/docs/c++/printing-pada-console.md",
+  "sourceDirName": "c++",
+  "slug": "/c++/printing-pada-console",
+  "permalink": "/docs/c++/printing-pada-console",
+  "draft": false,
+  "editUrl": "https://github.com/fajarspace/kodelab-roadmap/tree/master/docs/c++/printing-pada-console.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Printing pada console"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Cara kerja C++",
+    "permalink": "/docs/c++/cara-kerja-cpp"
+  },
+  "next": {
+    "title": "Deklarasi & Cin",
+    "permalink": "/docs/c++/deklarasi-cin"
+  }
+}

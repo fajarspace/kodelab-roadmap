@@ -149,20 +149,12 @@
       "plugin": "2542bc8b"
     }
   },
-  "/docs-6ab": {
+  "/docs-652": {
     "__comp": "1be78505",
     "__context": {
       "plugin": "c1a54b90"
     },
     "versionMetadata": "935f2afb"
-  },
-  "/docs/c++/cpp-358": {
-    "__comp": "17896441",
-    "content": "75497a53"
-  },
-  "/docs/c++/intro-20b": {
-    "__comp": "17896441",
-    "content": "d9f5f131"
   },
   "/docs/category/c-879": {
     "__comp": "14eb3368",
@@ -179,6 +171,26 @@
   "/docs/category/tutorial---extras-f09": {
     "__comp": "14eb3368",
     "categoryGeneratedIndex": "c844b82d"
+  },
+  "/docs/cpp/cara-kerja-cpp-610": {
+    "__comp": "17896441",
+    "content": "0275d490"
+  },
+  "/docs/cpp/deklarasi-cin-114": {
+    "__comp": "17896441",
+    "content": "0c6599da"
+  },
+  "/docs/cpp/perkenalan-dc3": {
+    "__comp": "17896441",
+    "content": "33a9ceae"
+  },
+  "/docs/cpp/printing-pada-console-877": {
+    "__comp": "17896441",
+    "content": "d62063c2"
+  },
+  "/docs/cpp/variabel-tipedata-konstanta-d55": {
+    "__comp": "17896441",
+    "content": "5f8887ce"
   },
   "/docs/intro-aed": {
     "__comp": "17896441",

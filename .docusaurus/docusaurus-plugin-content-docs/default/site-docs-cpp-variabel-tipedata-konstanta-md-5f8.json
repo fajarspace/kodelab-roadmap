@@ -1,0 +1,24 @@
+{
+  "unversionedId": "cpp/variabel-tipedata-konstanta",
+  "id": "cpp/variabel-tipedata-konstanta",
+  "title": "Variabel, tipe data & konstanta",
+  "description": "Variabel",
+  "source": "@site/docs/cpp/variabel-tipedata-konstanta.md",
+  "sourceDirName": "cpp",
+  "slug": "/cpp/variabel-tipedata-konstanta",
+  "permalink": "/docs/cpp/variabel-tipedata-konstanta",
+  "draft": false,
+  "editUrl": "https://github.com/fajarspace/kodelab-roadmap/tree/master/docs/cpp/variabel-tipedata-konstanta.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "Variabel, tipe data & konstanta"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Deklarasi & Cin",
+    "permalink": "/docs/cpp/deklarasi-cin"
+  }
+}

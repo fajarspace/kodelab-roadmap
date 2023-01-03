@@ -1,0 +1,28 @@
+{
+  "unversionedId": "c++/deklarasi-cin",
+  "id": "c++/deklarasi-cin",
+  "title": "Deklarasi & Cin",
+  "description": "deklarasi variabel",
+  "source": "@site/docs/c++/deklarasi-cin.md",
+  "sourceDirName": "c++",
+  "slug": "/c++/deklarasi-cin",
+  "permalink": "/docs/c++/deklarasi-cin",
+  "draft": false,
+  "editUrl": "https://github.com/fajarspace/kodelab-roadmap/tree/master/docs/c++/deklarasi-cin.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "Deklarasi & Cin"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Printing pada console",
+    "permalink": "/docs/c++/printing-pada-console"
+  },
+  "next": {
+    "title": "Variabel, tipe data & konstanta",
+    "permalink": "/docs/c++/variabel-tipedata-konstanta"
+  }
+}

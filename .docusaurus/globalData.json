@@ -11,13 +11,28 @@
           "mainDocId": "intro",
           "docs": [
             {
-              "id": "c++/cpp",
-              "path": "/docs/c++/cpp",
+              "id": "cpp/cara-kerja-cpp",
+              "path": "/docs/cpp/cara-kerja-cpp",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "c++/intro",
-              "path": "/docs/c++/intro",
+              "id": "cpp/deklarasi-cin",
+              "path": "/docs/cpp/deklarasi-cin",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "cpp/perkenalan",
+              "path": "/docs/cpp/perkenalan",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "cpp/printing-pada-console",
+              "path": "/docs/cpp/printing-pada-console",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "cpp/variabel-tipedata-konstanta",
+              "path": "/docs/cpp/variabel-tipedata-konstanta",
               "sidebar": "tutorialSidebar"
             },
             {

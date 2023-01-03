@@ -27,11 +27,11 @@ export default {
       {
         "docs": {
           "sidebarPath": "/Users/fajarspace/Documents/github/kodelab-roadmap/sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "editUrl": "https://github.com/fajarspace/kodelab-roadmap/tree/master/"
         },
         "blog": {
           "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "editUrl": "https://github.com/fajarspace/kodelab-roadmap/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
           "customCss": "/Users/fajarspace/Documents/github/kodelab-roadmap/src/css/custom.css"
@@ -109,7 +109,7 @@ export default {
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "href": "https://github.com/fajarspace/kodelab-roadmap"
             }
           ]
         }

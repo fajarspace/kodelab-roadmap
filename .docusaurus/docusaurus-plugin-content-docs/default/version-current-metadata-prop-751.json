@@ -104,15 +104,33 @@
         "items": [
           {
             "type": "link",
-            "label": "intro",
-            "href": "/docs/c++/intro",
-            "docId": "c++/intro"
+            "label": "Apa itu C++ ?",
+            "href": "/docs/cpp/perkenalan",
+            "docId": "cpp/perkenalan"
           },
           {
             "type": "link",
-            "label": "cpp",
-            "href": "/docs/c++/cpp",
-            "docId": "c++/cpp"
+            "label": "Cara kerja C++",
+            "href": "/docs/cpp/cara-kerja-cpp",
+            "docId": "cpp/cara-kerja-cpp"
+          },
+          {
+            "type": "link",
+            "label": "Printing pada console",
+            "href": "/docs/cpp/printing-pada-console",
+            "docId": "cpp/printing-pada-console"
+          },
+          {
+            "type": "link",
+            "label": "Deklarasi & Cin",
+            "href": "/docs/cpp/deklarasi-cin",
+            "docId": "cpp/deklarasi-cin"
+          },
+          {
+            "type": "link",
+            "label": "Variabel, tipe data & konstanta",
+            "href": "/docs/cpp/variabel-tipedata-konstanta",
+            "docId": "cpp/variabel-tipedata-konstanta"
           }
         ],
         "href": "/docs/category/c"
@@ -120,16 +138,34 @@
     ]
   },
   "docs": {
-    "c++/cpp": {
-      "id": "c++/cpp",
-      "title": "cpp",
-      "description": "Printing pada console",
+    "cpp/cara-kerja-cpp": {
+      "id": "cpp/cara-kerja-cpp",
+      "title": "Cara kerja C++",
+      "description": "memahami cara kerja cpp",
       "sidebar": "tutorialSidebar"
     },
-    "c++/intro": {
-      "id": "c++/intro",
-      "title": "intro",
-      "description": "Cara kerja C++",
+    "cpp/deklarasi-cin": {
+      "id": "cpp/deklarasi-cin",
+      "title": "Deklarasi & Cin",
+      "description": "deklarasi variabel",
+      "sidebar": "tutorialSidebar"
+    },
+    "cpp/perkenalan": {
+      "id": "cpp/perkenalan",
+      "title": "Apa itu C++ ?",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "cpp/printing-pada-console": {
+      "id": "cpp/printing-pada-console",
+      "title": "Printing pada console",
+      "description": "#incluce  Library deklarasi I/O pada C++",
+      "sidebar": "tutorialSidebar"
+    },
+    "cpp/variabel-tipedata-konstanta": {
+      "id": "cpp/variabel-tipedata-konstanta",
+      "title": "Variabel, tipe data & konstanta",
+      "description": "Variabel",
       "sidebar": "tutorialSidebar"
     },
     "intro": {

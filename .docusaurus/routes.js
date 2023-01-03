@@ -69,20 +69,8 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '6ab'),
+    component: ComponentCreator('/docs', '652'),
     routes: [
-      {
-        path: '/docs/c++/cpp',
-        component: ComponentCreator('/docs/c++/cpp', '358'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/c++/intro',
-        component: ComponentCreator('/docs/c++/intro', '20b'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
       {
         path: '/docs/category/c',
         component: ComponentCreator('/docs/category/c', '879'),
@@ -104,6 +92,36 @@ export default [
       {
         path: '/docs/category/tutorial---extras',
         component: ComponentCreator('/docs/category/tutorial---extras', 'f09'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/cpp/cara-kerja-cpp',
+        component: ComponentCreator('/docs/cpp/cara-kerja-cpp', '610'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/cpp/deklarasi-cin',
+        component: ComponentCreator('/docs/cpp/deklarasi-cin', '114'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/cpp/perkenalan',
+        component: ComponentCreator('/docs/cpp/perkenalan', 'dc3'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/cpp/printing-pada-console',
+        component: ComponentCreator('/docs/cpp/printing-pada-console', '877'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/cpp/variabel-tipedata-konstanta',
+        component: ComponentCreator('/docs/cpp/variabel-tipedata-konstanta', 'd55'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

@@ -11,8 +11,8 @@
           "className": "docs-version-current",
           "path": "/docs",
           "tagsPath": "/docs/tags",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs",
-          "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
+          "editUrl": "https://github.com/fajarspace/kodelab-roadmap/tree/master/docs",
+          "editUrlLocalized": "https://github.com/fajarspace/kodelab-roadmap/tree/master/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
           "sidebarFilePath": "/Users/fajarspace/Documents/github/kodelab-roadmap/sidebars.js",
@@ -20,44 +20,78 @@
           "contentPathLocalized": "/Users/fajarspace/Documents/github/kodelab-roadmap/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
-              "unversionedId": "c++/cpp",
-              "id": "c++/cpp",
-              "title": "cpp",
-              "description": "Printing pada console",
-              "source": "@site/docs/c++/cpp.md",
-              "sourceDirName": "c++",
-              "slug": "/c++/cpp",
-              "permalink": "/docs/c++/cpp",
+              "unversionedId": "cpp/cara-kerja-cpp",
+              "id": "cpp/cara-kerja-cpp",
+              "title": "Cara kerja C++",
+              "description": "memahami cara kerja cpp",
+              "source": "@site/docs/cpp/cara-kerja-cpp.md",
+              "sourceDirName": "cpp",
+              "slug": "/cpp/cara-kerja-cpp",
+              "permalink": "/docs/cpp/cara-kerja-cpp",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/c++/cpp.md",
+              "editUrl": "https://github.com/fajarspace/kodelab-roadmap/tree/master/docs/cpp/cara-kerja-cpp.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
               "frontMatter": {
-                "sidebar_position": 2
+                "sidebar_position": 2,
+                "title": "Cara kerja C++"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "intro",
-                "permalink": "/docs/c++/intro"
+                "title": "Apa itu C++ ?",
+                "permalink": "/docs/cpp/perkenalan"
+              },
+              "next": {
+                "title": "Printing pada console",
+                "permalink": "/docs/cpp/printing-pada-console"
               }
             },
             {
-              "unversionedId": "c++/intro",
-              "id": "c++/intro",
-              "title": "intro",
-              "description": "Cara kerja C++",
-              "source": "@site/docs/c++/intro.md",
-              "sourceDirName": "c++",
-              "slug": "/c++/intro",
-              "permalink": "/docs/c++/intro",
+              "unversionedId": "cpp/deklarasi-cin",
+              "id": "cpp/deklarasi-cin",
+              "title": "Deklarasi & Cin",
+              "description": "deklarasi variabel",
+              "source": "@site/docs/cpp/deklarasi-cin.md",
+              "sourceDirName": "cpp",
+              "slug": "/cpp/deklarasi-cin",
+              "permalink": "/docs/cpp/deklarasi-cin",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/c++/intro.md",
+              "editUrl": "https://github.com/fajarspace/kodelab-roadmap/tree/master/docs/cpp/deklarasi-cin.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4,
+                "title": "Deklarasi & Cin"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Printing pada console",
+                "permalink": "/docs/cpp/printing-pada-console"
+              },
+              "next": {
+                "title": "Variabel, tipe data & konstanta",
+                "permalink": "/docs/cpp/variabel-tipedata-konstanta"
+              }
+            },
+            {
+              "unversionedId": "cpp/perkenalan",
+              "id": "cpp/perkenalan",
+              "title": "Apa itu C++ ?",
+              "description": "",
+              "source": "@site/docs/cpp/perkenalan.md",
+              "sourceDirName": "cpp",
+              "slug": "/cpp/perkenalan",
+              "permalink": "/docs/cpp/perkenalan",
+              "draft": false,
+              "editUrl": "https://github.com/fajarspace/kodelab-roadmap/tree/master/docs/cpp/perkenalan.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
-                "sidebar_position": 1
+                "sidebar_position": 1,
+                "title": "Apa itu C++ ?"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -65,8 +99,60 @@
                 "permalink": "/docs/category/c"
               },
               "next": {
-                "title": "cpp",
-                "permalink": "/docs/c++/cpp"
+                "title": "Cara kerja C++",
+                "permalink": "/docs/cpp/cara-kerja-cpp"
+              }
+            },
+            {
+              "unversionedId": "cpp/printing-pada-console",
+              "id": "cpp/printing-pada-console",
+              "title": "Printing pada console",
+              "description": "#incluce  Library deklarasi I/O pada C++",
+              "source": "@site/docs/cpp/printing-pada-console.md",
+              "sourceDirName": "cpp",
+              "slug": "/cpp/printing-pada-console",
+              "permalink": "/docs/cpp/printing-pada-console",
+              "draft": false,
+              "editUrl": "https://github.com/fajarspace/kodelab-roadmap/tree/master/docs/cpp/printing-pada-console.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3,
+                "title": "Printing pada console"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Cara kerja C++",
+                "permalink": "/docs/cpp/cara-kerja-cpp"
+              },
+              "next": {
+                "title": "Deklarasi & Cin",
+                "permalink": "/docs/cpp/deklarasi-cin"
+              }
+            },
+            {
+              "unversionedId": "cpp/variabel-tipedata-konstanta",
+              "id": "cpp/variabel-tipedata-konstanta",
+              "title": "Variabel, tipe data & konstanta",
+              "description": "Variabel",
+              "source": "@site/docs/cpp/variabel-tipedata-konstanta.md",
+              "sourceDirName": "cpp",
+              "slug": "/cpp/variabel-tipedata-konstanta",
+              "permalink": "/docs/cpp/variabel-tipedata-konstanta",
+              "draft": false,
+              "editUrl": "https://github.com/fajarspace/kodelab-roadmap/tree/master/docs/cpp/variabel-tipedata-konstanta.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5,
+                "title": "Variabel, tipe data & konstanta"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Deklarasi & Cin",
+                "permalink": "/docs/cpp/deklarasi-cin"
               }
             },
             {
@@ -79,7 +165,7 @@
               "slug": "/intro",
               "permalink": "/docs/intro",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
+              "editUrl": "https://github.com/fajarspace/kodelab-roadmap/tree/master/docs/intro.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -102,7 +188,7 @@
               "slug": "/roadmap/Frontend",
               "permalink": "/docs/roadmap/Frontend",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/roadmap/Frontend.md",
+              "editUrl": "https://github.com/fajarspace/kodelab-roadmap/tree/master/docs/roadmap/Frontend.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -129,7 +215,7 @@
               "slug": "/tutorial-basics/congratulations",
               "permalink": "/docs/tutorial-basics/congratulations",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/congratulations.md",
+              "editUrl": "https://github.com/fajarspace/kodelab-roadmap/tree/master/docs/tutorial-basics/congratulations.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 6,
@@ -156,7 +242,7 @@
               "slug": "/tutorial-basics/create-a-blog-post",
               "permalink": "/docs/tutorial-basics/create-a-blog-post",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/create-a-blog-post.md",
+              "editUrl": "https://github.com/fajarspace/kodelab-roadmap/tree/master/docs/tutorial-basics/create-a-blog-post.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
@@ -183,7 +269,7 @@
               "slug": "/tutorial-basics/create-a-document",
               "permalink": "/docs/tutorial-basics/create-a-document",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/create-a-document.md",
+              "editUrl": "https://github.com/fajarspace/kodelab-roadmap/tree/master/docs/tutorial-basics/create-a-document.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -210,7 +296,7 @@
               "slug": "/tutorial-basics/create-a-page",
               "permalink": "/docs/tutorial-basics/create-a-page",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/create-a-page.md",
+              "editUrl": "https://github.com/fajarspace/kodelab-roadmap/tree/master/docs/tutorial-basics/create-a-page.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -237,7 +323,7 @@
               "slug": "/tutorial-basics/deploy-your-site",
               "permalink": "/docs/tutorial-basics/deploy-your-site",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/deploy-your-site.md",
+              "editUrl": "https://github.com/fajarspace/kodelab-roadmap/tree/master/docs/tutorial-basics/deploy-your-site.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 5,
@@ -264,7 +350,7 @@
               "slug": "/tutorial-basics/markdown-features",
               "permalink": "/docs/tutorial-basics/markdown-features",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/markdown-features.mdx",
+              "editUrl": "https://github.com/fajarspace/kodelab-roadmap/tree/master/docs/tutorial-basics/markdown-features.mdx",
               "tags": [],
               "version": "current",
               "sidebarPosition": 4,
@@ -291,7 +377,7 @@
               "slug": "/tutorial-extras/manage-docs-versions",
               "permalink": "/docs/tutorial-extras/manage-docs-versions",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-extras/manage-docs-versions.md",
+              "editUrl": "https://github.com/fajarspace/kodelab-roadmap/tree/master/docs/tutorial-extras/manage-docs-versions.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -318,7 +404,7 @@
               "slug": "/tutorial-extras/translate-your-site",
               "permalink": "/docs/tutorial-extras/translate-your-site",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-extras/translate-your-site.md",
+              "editUrl": "https://github.com/fajarspace/kodelab-roadmap/tree/master/docs/tutorial-extras/translate-your-site.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -427,11 +513,23 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "c++/intro"
+                    "id": "cpp/perkenalan"
                   },
                   {
                     "type": "doc",
-                    "id": "c++/cpp"
+                    "id": "cpp/cara-kerja-cpp"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "cpp/printing-pada-console"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "cpp/deklarasi-cin"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "cpp/variabel-tipedata-konstanta"
                   }
                 ],
                 "link": {
@@ -454,7 +552,7 @@
           "id": "welcome",
           "metadata": {
             "permalink": "/blog/welcome",
-            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-26-welcome/index.md",
+            "editUrl": "https://github.com/fajarspace/kodelab-roadmap/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-26-welcome/index.md",
             "source": "@site/blog/2021-08-26-welcome/index.md",
             "title": "Welcome",
             "description": "Docusaurus blogging features are powered by the blog plugin.",
@@ -516,7 +614,7 @@
           "id": "mdx-blog-post",
           "metadata": {
             "permalink": "/blog/mdx-blog-post",
-            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-01-mdx-blog-post.mdx",
+            "editUrl": "https://github.com/fajarspace/kodelab-roadmap/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-01-mdx-blog-post.mdx",
             "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
             "title": "MDX Blog Post",
             "description": "Blog posts support Docusaurus Markdown features, such as MDX.",
@@ -564,7 +662,7 @@
           "id": "long-blog-post",
           "metadata": {
             "permalink": "/blog/long-blog-post",
-            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-29-long-blog-post.md",
+            "editUrl": "https://github.com/fajarspace/kodelab-roadmap/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-29-long-blog-post.md",
             "source": "@site/blog/2019-05-29-long-blog-post.md",
             "title": "Long Blog Post",
             "description": "This is the summary of a very long blog post,",
@@ -615,7 +713,7 @@
           "id": "first-blog-post",
           "metadata": {
             "permalink": "/blog/first-blog-post",
-            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-28-first-blog-post.md",
+            "editUrl": "https://github.com/fajarspace/kodelab-roadmap/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-28-first-blog-post.md",
             "source": "@site/blog/2019-05-28-first-blog-post.md",
             "title": "First Blog Post",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",

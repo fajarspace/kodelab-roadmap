@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
+title: Cara kerja C++
 ---
 
-## Cara kerja C++
+memahami cara kerja cpp
 
 <!-- ![sumber : kelas terbuka](/uploads/screen-shot-2022-10-06-at-20-02-32.png) -->
 

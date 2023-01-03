@@ -1,0 +1,28 @@
+{
+  "unversionedId": "cpp/perkenalan",
+  "id": "cpp/perkenalan",
+  "title": "Apa itu C++ ?",
+  "description": "",
+  "source": "@site/docs/cpp/perkenalan.md",
+  "sourceDirName": "cpp",
+  "slug": "/cpp/perkenalan",
+  "permalink": "/docs/cpp/perkenalan",
+  "draft": false,
+  "editUrl": "https://github.com/fajarspace/kodelab-roadmap/tree/master/docs/cpp/perkenalan.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Apa itu C++ ?"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "C++",
+    "permalink": "/docs/category/c"
+  },
+  "next": {
+    "title": "Cara kerja C++",
+    "permalink": "/docs/cpp/cara-kerja-cpp"
+  }
+}

@@ -1,72 +1,17 @@
 ---
-sidebar_position: 2
+sidebar_position: 5
+title: Variabel, tipe data & konstanta
 ---
-
-
-## Printing pada console
-
-```shell
-#include <iostream>
-using namespace std;
-
-int main(){ 
-    cout << "Hello world " << endl;
-    return 0;
-}
-```
-
-`#incluce <iostream>` Library deklarasi I/O pada C++
-
-`using namespace std;` Library yang ada pada iostream, menampilkan output pada C++
-
-`int main()` Sebuah function, titik awal di mana seluruh program C++ akan mulai dieksekusi
-
-`cout << "Hello world " << endl;` cout (coutput) dan endl (endline)
-
-`return 0;` Menandakan fungsi main() berakhir
-
-## Deklarasi & Cin
-```shell
-#include <iostream>
-using namespace std;
-
-int main(){
-    int a; 
-    a = 10;
-    cout << a << endl;
-
-    int b;
-    cout << "masukkan nilai" << endl;
-    cin >> b; 
-    cout << "nilai B adalah :";
-    cout << b << endl;
-}
-```
-deklarasi variabel
-
-`int a;` mendeklarasikan variabel
-
-`a = 10;` masukan value
-
-Cin / Cinput
-
-`int b;` mendeklarasikan variabel
-
-`cin >> b;` menginput nilai manual
-
-`cout << b << endl;` cetak b
-
-## Variabel, Tipe Data, dan Konstanta
 
 ### Variabel
 Wadah yang menyimpan sebuah nilai, Contoh deklarasi sebuah variabel:
 
-```shell
+```cpp
 string nama;
 int a, b, c;
  ```
  atau langsung disertai dengan nilainya:
- ```shell
+ ```cpp
  int jumlah;
  jumlah = 10;
  ```
@@ -92,15 +37,15 @@ Non-primitive data type, di antaranya:
 Wadah yang dapat menyimpan nilai tetap selama eksekusi program
 
 Menggunakan keyword const
-```shell
+```cpp
 const float PHI = 3.14;
 ```
 Menggunakan #define
-```shell
+```cpp
  #define PHI 3.14
 ```
 Contoh program
-```shell
+```cpp
 #include <iostream>
 using namespace std;
 int main() {
@@ -109,4 +54,3 @@ int main() {
   return 0;
 }
 ```
-

@@ -1,0 +1,28 @@
+{
+  "unversionedId": "cpp/cara-kerja-cpp",
+  "id": "cpp/cara-kerja-cpp",
+  "title": "Cara kerja C++",
+  "description": "memahami cara kerja cpp",
+  "source": "@site/docs/cpp/cara-kerja-cpp.md",
+  "sourceDirName": "cpp",
+  "slug": "/cpp/cara-kerja-cpp",
+  "permalink": "/docs/cpp/cara-kerja-cpp",
+  "draft": false,
+  "editUrl": "https://github.com/fajarspace/kodelab-roadmap/tree/master/docs/cpp/cara-kerja-cpp.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Cara kerja C++"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Apa itu C++ ?",
+    "permalink": "/docs/cpp/perkenalan"
+  },
+  "next": {
+    "title": "Printing pada console",
+    "permalink": "/docs/cpp/printing-pada-console"
+  }
+}
