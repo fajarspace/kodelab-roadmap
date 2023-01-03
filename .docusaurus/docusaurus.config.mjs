@@ -6,7 +6,7 @@
 export default {
   "title": "Kodelab",
   "tagline": "Tempat nya tutor koding berbahasa indonesia!",
-  "url": "http://localhost:3000",
+  "url": "https://kodelab-road.netlify.app",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",

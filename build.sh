@@ -7,6 +7,8 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 npm run build
 
+docker run -it --env-file=.env -e "CONFIG=$(cat config.json | jq -r tostring)" algolia/docsearch-scraper
+
 # cd public
 
 git add -A
