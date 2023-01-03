@@ -143,34 +143,13 @@
     },
     "content": "393be207"
   },
-  "/roadmap/intro-34e": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "fba2b6a1"
-    },
-    "content": "1c67cb21"
-  },
-  "/roadmap/tutorial-extras/manage-docs-versions-95a": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "fba2b6a1"
-    },
-    "content": "ffb606a5"
-  },
-  "/roadmap/tutorial-extras/translate-your-site-b26": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "fba2b6a1"
-    },
-    "content": "cfd187a8"
-  },
   "/search-0b8": {
     "__comp": "1a4e3797",
     "__context": {
       "plugin": "2542bc8b"
     }
   },
-  "/docs-aca": {
+  "/docs-58e": {
     "__comp": "1be78505",
     "__context": {
       "plugin": "c1a54b90"
@@ -193,9 +172,9 @@
     "__comp": "17896441",
     "content": "0e384e19"
   },
-  "/docs/roadmap/html-b74": {
+  "/docs/roadmap/Frontend-3f0": {
     "__comp": "17896441",
-    "content": "93a6b67f"
+    "content": "7e465d14"
   },
   "/docs/tutorial-basics/congratulations-793": {
     "__comp": "17896441",

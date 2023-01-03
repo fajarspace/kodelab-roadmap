@@ -63,28 +63,13 @@ export default [
     exact: true
   },
   {
-    path: '/roadmap/intro',
-    component: ComponentCreator('/roadmap/intro', '34e'),
-    exact: true
-  },
-  {
-    path: '/roadmap/tutorial-extras/manage-docs-versions',
-    component: ComponentCreator('/roadmap/tutorial-extras/manage-docs-versions', '95a'),
-    exact: true
-  },
-  {
-    path: '/roadmap/tutorial-extras/translate-your-site',
-    component: ComponentCreator('/roadmap/tutorial-extras/translate-your-site', 'b26'),
-    exact: true
-  },
-  {
     path: '/search',
     component: ComponentCreator('/search', '0b8'),
     exact: true
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'aca'),
+    component: ComponentCreator('/docs', '58e'),
     routes: [
       {
         path: '/docs/category/roadmaps',
@@ -111,8 +96,8 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/roadmap/html',
-        component: ComponentCreator('/docs/roadmap/html', 'b74'),
+        path: '/docs/roadmap/Frontend',
+        component: ComponentCreator('/docs/roadmap/Frontend', '3f0'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

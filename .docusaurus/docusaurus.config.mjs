@@ -59,7 +59,7 @@ export default {
           "position": "left"
         },
         {
-          "to": "/roadmap",
+          "to": "/docs/category/roadmaps",
           "label": "Roadmaps",
           "position": "left"
         },

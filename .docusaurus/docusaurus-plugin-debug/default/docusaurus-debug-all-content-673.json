@@ -43,27 +43,26 @@
               }
             },
             {
-              "unversionedId": "roadmap/html",
-              "id": "roadmap/html",
-              "title": "html",
-              "description": "",
-              "source": "@site/docs/roadmap/html.md",
+              "unversionedId": "roadmap/Frontend",
+              "id": "roadmap/Frontend",
+              "title": "Frontend",
+              "description": "Step by step untuk menjadi Frontend developer",
+              "source": "@site/docs/roadmap/Frontend.md",
               "sourceDirName": "roadmap",
-              "slug": "/roadmap/html",
-              "permalink": "/docs/roadmap/html",
+              "slug": "/roadmap/Frontend",
+              "permalink": "/docs/roadmap/Frontend",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/roadmap/html.md",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/roadmap/Frontend.md",
               "tags": [],
               "version": "current",
-              "frontMatter": {},
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Roadmaps",
                 "permalink": "/docs/category/roadmaps"
-              },
-              "next": {
-                "title": "Tutorial - Extras",
-                "permalink": "/docs/category/tutorial---extras"
               }
             },
             {
@@ -89,8 +88,8 @@
                 "permalink": "/docs/tutorial-basics/deploy-your-site"
               },
               "next": {
-                "title": "Roadmaps",
-                "permalink": "/docs/category/roadmaps"
+                "title": "Tutorial - Extras",
+                "permalink": "/docs/category/tutorial---extras"
               }
             },
             {
@@ -276,6 +275,10 @@
               "previous": {
                 "title": "Manage Docs Versions",
                 "permalink": "/docs/tutorial-extras/manage-docs-versions"
+              },
+              "next": {
+                "title": "Roadmaps",
+                "permalink": "/docs/category/roadmaps"
               }
             }
           ],
@@ -326,23 +329,6 @@
               },
               {
                 "type": "category",
-                "label": "Roadmaps",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "roadmap/html"
-                  }
-                ],
-                "link": {
-                  "type": "generated-index",
-                  "slug": "/category/roadmaps",
-                  "permalink": "/docs/category/roadmaps"
-                }
-              },
-              {
-                "type": "category",
                 "label": "Tutorial - Extras",
                 "collapsible": true,
                 "collapsed": true,
@@ -360,6 +346,23 @@
                   "type": "generated-index",
                   "slug": "/category/tutorial---extras",
                   "permalink": "/docs/category/tutorial---extras"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Roadmaps",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "roadmap/Frontend"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/roadmaps",
+                  "permalink": "/docs/category/roadmaps"
                 }
               }
             ]
@@ -726,36 +729,6 @@
         "description": "You don't need React to write simple standalone pages.",
         "frontMatter": {
           "title": "Markdown page example"
-        }
-      },
-      {
-        "type": "mdx",
-        "permalink": "/roadmap/intro",
-        "source": "@site/src/pages/roadmap/intro.md",
-        "title": "Tutorial Intro",
-        "description": "Let's discover Docusaurus in less than 5 minutes.",
-        "frontMatter": {
-          "sidebar_position": 1
-        }
-      },
-      {
-        "type": "mdx",
-        "permalink": "/roadmap/tutorial-extras/manage-docs-versions",
-        "source": "@site/src/pages/roadmap/tutorial-extras/manage-docs-versions.md",
-        "title": "Manage Docs Versions",
-        "description": "Docusaurus can manage multiple versions of your docs.",
-        "frontMatter": {
-          "sidebar_position": 1
-        }
-      },
-      {
-        "type": "mdx",
-        "permalink": "/roadmap/tutorial-extras/translate-your-site",
-        "source": "@site/src/pages/roadmap/tutorial-extras/translate-your-site.md",
-        "title": "Translate your site",
-        "description": "Let's translate docs/intro.md to French.",
-        "frontMatter": {
-          "sidebar_position": 2
         }
       }
     ]

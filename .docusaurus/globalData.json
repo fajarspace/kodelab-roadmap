@@ -16,8 +16,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "roadmap/html",
-              "path": "/docs/roadmap/html",
+              "id": "roadmap/Frontend",
+              "path": "/docs/roadmap/Frontend",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -66,13 +66,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/roadmaps",
-              "path": "/docs/category/roadmaps",
+              "id": "/category/tutorial---extras",
+              "path": "/docs/category/tutorial---extras",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/tutorial---extras",
-              "path": "/docs/category/tutorial---extras",
+              "id": "/category/roadmaps",
+              "path": "/docs/category/roadmaps",
               "sidebar": "tutorialSidebar"
             }
           ],

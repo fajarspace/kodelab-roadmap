@@ -4,12 +4,12 @@
   "permalink": "/docs/category/roadmaps",
   "navigation": {
     "previous": {
-      "title": "Congratulations!",
-      "permalink": "/docs/tutorial-basics/congratulations"
+      "title": "Translate your site",
+      "permalink": "/docs/tutorial-extras/translate-your-site"
     },
     "next": {
-      "title": "html",
-      "permalink": "/docs/roadmap/html"
+      "title": "Frontend",
+      "permalink": "/docs/roadmap/Frontend"
     }
   }
 }
