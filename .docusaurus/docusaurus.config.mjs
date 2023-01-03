@@ -316,11 +316,10 @@ export default {
       ]
     },
     "algolia": {
-      "appId": "X2RCFQ9TGA",
-      "apiKey": "3b7db69e9b04520436b783d975531f7c",
+      "appId": "Z42AWJI8QO",
+      "apiKey": "455f5ddbc728b8846b1c43e74329fced",
       "indexName": "kodelab",
       "contextualSearch": true,
-      "algoliaOptions": {},
       "searchParameters": {},
       "searchPagePath": "search"
     },

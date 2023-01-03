@@ -18,7 +18,7 @@ module.exports = {
 const config = {
   title: 'Kodelab',
   tagline: 'Tempat nya tutor koding berbahasa indonesia!',
-  url: 'http://localhost:3000/',
+  url: 'https://kodelab-road.netlify.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -138,12 +138,10 @@ const config = {
       },
 
       algolia: {
-        appId: 'X2RCFQ9TGA',
-        apiKey: '3b7db69e9b04520436b783d975531f7c',
+        appId: 'Z42AWJI8QO',
+        apiKey: '455f5ddbc728b8846b1c43e74329fced',
         indexName: 'kodelab',
-        contextualSearch: true,
-
-        algoliaOptions: {} // Optional, if provided by Algolia
+        contextualSearch: true
       },
     }),
 };

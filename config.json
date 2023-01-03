@@ -1,7 +1,10 @@
 {
   "index_name": "kodelab",
+  "start_urls": [
+    "https://kodelab-road.netlify.app/"
+  ],
   "sitemap_urls": [
-    "https://localhost:3000/sitemap.xml"
+    "https://kodelab-road.netlify.app/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "stop_urls": [
