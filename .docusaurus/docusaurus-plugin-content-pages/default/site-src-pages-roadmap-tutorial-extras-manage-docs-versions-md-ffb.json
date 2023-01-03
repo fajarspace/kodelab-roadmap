@@ -1,0 +1,10 @@
+{
+  "type": "mdx",
+  "permalink": "/roadmap/tutorial-extras/manage-docs-versions",
+  "source": "@site/src/pages/roadmap/tutorial-extras/manage-docs-versions.md",
+  "title": "Manage Docs Versions",
+  "description": "Docusaurus can manage multiple versions of your docs.",
+  "frontMatter": {
+    "sidebar_position": 1
+  }
+}

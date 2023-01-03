@@ -3,41 +3,6 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '460'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '553'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', 'eb2'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'd33'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '4b0'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '3a9'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', 'cc8'),
-    exact: true
-  },
-  {
     path: '/blog',
     component: ComponentCreator('/blog', '977'),
     exact: true
@@ -98,8 +63,18 @@ export default [
     exact: true
   },
   {
-    path: '/roadmap/',
-    component: ComponentCreator('/roadmap/', '6c0'),
+    path: '/roadmap/intro',
+    component: ComponentCreator('/roadmap/intro', '34e'),
+    exact: true
+  },
+  {
+    path: '/roadmap/tutorial-extras/manage-docs-versions',
+    component: ComponentCreator('/roadmap/tutorial-extras/manage-docs-versions', '95a'),
+    exact: true
+  },
+  {
+    path: '/roadmap/tutorial-extras/translate-your-site',
+    component: ComponentCreator('/roadmap/tutorial-extras/translate-your-site', 'b26'),
     exact: true
   },
   {
@@ -109,8 +84,14 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '2ef'),
+    component: ComponentCreator('/docs', 'aca'),
     routes: [
+      {
+        path: '/docs/category/roadmaps',
+        component: ComponentCreator('/docs/category/roadmaps', 'ee4'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
       {
         path: '/docs/category/tutorial---basics',
         component: ComponentCreator('/docs/category/tutorial---basics', 'd44'),
@@ -126,6 +107,12 @@ export default [
       {
         path: '/docs/intro',
         component: ComponentCreator('/docs/intro', 'aed'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/roadmap/html',
+        component: ComponentCreator('/docs/roadmap/html', 'b74'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

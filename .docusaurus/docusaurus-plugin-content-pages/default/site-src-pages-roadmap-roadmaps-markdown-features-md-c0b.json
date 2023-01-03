@@ -1,0 +1,10 @@
+{
+  "type": "mdx",
+  "permalink": "/roadmap/roadmaps/markdown-features",
+  "source": "@site/src/pages/roadmap/roadmaps/markdown-features.md",
+  "title": "Markdown Features",
+  "description": "Docusaurus supports Markdown and a few additional features.",
+  "frontMatter": {
+    "sidebar_position": 4
+  }
+}

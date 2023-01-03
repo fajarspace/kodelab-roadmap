@@ -62,6 +62,21 @@
       },
       {
         "type": "category",
+        "label": "Roadmaps",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "html",
+            "href": "/docs/roadmap/html",
+            "docId": "roadmap/html"
+          }
+        ],
+        "href": "/docs/category/roadmaps"
+      },
+      {
+        "type": "category",
         "label": "Tutorial - Extras",
         "collapsible": true,
         "collapsed": true,
@@ -88,6 +103,12 @@
       "id": "intro",
       "title": "Tutorial Intro",
       "description": "Let's discover Docusaurus in less than 5 minutes.",
+      "sidebar": "tutorialSidebar"
+    },
+    "roadmap/html": {
+      "id": "roadmap/html",
+      "title": "html",
+      "description": "",
       "sidebar": "tutorialSidebar"
     },
     "tutorial-basics/congratulations": {

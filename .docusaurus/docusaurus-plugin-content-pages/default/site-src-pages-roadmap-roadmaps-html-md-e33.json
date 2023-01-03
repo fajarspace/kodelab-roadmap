@@ -1,0 +1,10 @@
+{
+  "type": "mdx",
+  "permalink": "/roadmap/roadmaps/html",
+  "source": "@site/src/pages/roadmap/roadmaps/html.md",
+  "title": "Create a Blog Post",
+  "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
+  "frontMatter": {
+    "sidebar_position": 3
+  }
+}

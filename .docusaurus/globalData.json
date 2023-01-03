@@ -16,6 +16,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "roadmap/html",
+              "path": "/docs/roadmap/html",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "tutorial-basics/congratulations",
               "path": "/docs/tutorial-basics/congratulations",
               "sidebar": "tutorialSidebar"
@@ -58,6 +63,11 @@
             {
               "id": "/category/tutorial---basics",
               "path": "/docs/category/tutorial---basics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/roadmaps",
+              "path": "/docs/category/roadmaps",
               "sidebar": "tutorialSidebar"
             },
             {

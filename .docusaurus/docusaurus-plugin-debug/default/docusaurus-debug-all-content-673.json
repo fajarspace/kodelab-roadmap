@@ -43,6 +43,30 @@
               }
             },
             {
+              "unversionedId": "roadmap/html",
+              "id": "roadmap/html",
+              "title": "html",
+              "description": "",
+              "source": "@site/docs/roadmap/html.md",
+              "sourceDirName": "roadmap",
+              "slug": "/roadmap/html",
+              "permalink": "/docs/roadmap/html",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/roadmap/html.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Roadmaps",
+                "permalink": "/docs/category/roadmaps"
+              },
+              "next": {
+                "title": "Tutorial - Extras",
+                "permalink": "/docs/category/tutorial---extras"
+              }
+            },
+            {
               "unversionedId": "tutorial-basics/congratulations",
               "id": "tutorial-basics/congratulations",
               "title": "Congratulations!",
@@ -65,8 +89,8 @@
                 "permalink": "/docs/tutorial-basics/deploy-your-site"
               },
               "next": {
-                "title": "Tutorial - Extras",
-                "permalink": "/docs/category/tutorial---extras"
+                "title": "Roadmaps",
+                "permalink": "/docs/category/roadmaps"
               }
             },
             {
@@ -298,6 +322,23 @@
                   "description": "5 minutes to learn the most important Docusaurus concepts.",
                   "slug": "/category/tutorial---basics",
                   "permalink": "/docs/category/tutorial---basics"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Roadmaps",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "roadmap/html"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/roadmaps",
+                  "permalink": "/docs/category/roadmaps"
                 }
               },
               {
@@ -689,12 +730,32 @@
       },
       {
         "type": "mdx",
-        "permalink": "/roadmap/",
-        "source": "@site/src/pages/roadmap/index.md",
-        "title": "Markdown page example",
-        "description": "Docusaurus blogging features are powered by the blog plugin.",
+        "permalink": "/roadmap/intro",
+        "source": "@site/src/pages/roadmap/intro.md",
+        "title": "Tutorial Intro",
+        "description": "Let's discover Docusaurus in less than 5 minutes.",
         "frontMatter": {
-          "title": "Markdown page example"
+          "sidebar_position": 1
+        }
+      },
+      {
+        "type": "mdx",
+        "permalink": "/roadmap/tutorial-extras/manage-docs-versions",
+        "source": "@site/src/pages/roadmap/tutorial-extras/manage-docs-versions.md",
+        "title": "Manage Docs Versions",
+        "description": "Docusaurus can manage multiple versions of your docs.",
+        "frontMatter": {
+          "sidebar_position": 1
+        }
+      },
+      {
+        "type": "mdx",
+        "permalink": "/roadmap/tutorial-extras/translate-your-site",
+        "source": "@site/src/pages/roadmap/tutorial-extras/translate-your-site.md",
+        "title": "Translate your site",
+        "description": "Let's translate docs/intro.md to French.",
+        "frontMatter": {
+          "sidebar_position": 2
         }
       }
     ]

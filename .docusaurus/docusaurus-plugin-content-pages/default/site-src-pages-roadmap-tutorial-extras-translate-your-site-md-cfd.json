@@ -1,0 +1,10 @@
+{
+  "type": "mdx",
+  "permalink": "/roadmap/tutorial-extras/translate-your-site",
+  "source": "@site/src/pages/roadmap/tutorial-extras/translate-your-site.md",
+  "title": "Translate your site",
+  "description": "Let's translate docs/intro.md to French.",
+  "frontMatter": {
+    "sidebar_position": 2
+  }
+}
