@@ -5,6 +5,16 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
+module.exports = {
+  title: 'My site',
+  // ...
+  themes: ['@docusaurus/theme-search-algolia'],
+  themeConfig: {
+    algolia: {
+      contextualSearch: true,
+    },
+  },
+};
 const config = {
   title: 'Kodelab',
   tagline: 'Tempat nya tutor koding berbahasa indonesia!',
