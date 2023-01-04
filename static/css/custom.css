@@ -6,12 +6,18 @@
 
 /* You can override the default Infima variables here. */
 
-/* .navbar {
-  width: 80%;
+.navbar__inner {
+  width: 70%;
   margin: 0 auto;
   position: relative;
   box-shadow: none;
-} */
+}
+
+@media only screen and (max-width: 996px) {
+  .navbar__inner {
+    width: 100%;
+  }
+}
 
 :root {
   --ifm-color-primary: #5C99D7;
