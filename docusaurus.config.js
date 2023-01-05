@@ -59,7 +59,7 @@ const config = {
         title: 'Kodelab',
         logo: {
           alt: 'Kodelab Logo',
-          src: 'img/logo.svg',
+          src: 'img/brackets.png',
         },
         items: [
           {
@@ -120,7 +120,7 @@ const config = {
         //     ],
         //   },
         // ],
-        copyright: `Copyright © ${new Date().getFullYear()} Kodelab, Inc.`,
+        copyright: `Built with ❤️ <br> Copyright © ${new Date().getFullYear()} Kodelab, Inc.`,
       },
 
       algolia: {

@@ -9,6 +9,9 @@
   position: relative;
   overflow: hidden;
 }
+.headers{
+  display: flex;
+}
 
 @media screen and (max-width: 996px) {
   .heroBanner {

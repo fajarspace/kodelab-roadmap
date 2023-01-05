@@ -44,7 +44,7 @@ export default {
       "title": "Kodelab",
       "logo": {
         "alt": "Kodelab Logo",
-        "src": "img/logo.svg"
+        "src": "img/brackets.png"
       },
       "items": [
         {
@@ -67,7 +67,7 @@ export default {
       "hideOnScroll": false
     },
     "footer": {
-      "copyright": "Copyright © 2023 Kodelab, Inc.",
+      "copyright": "Built with ❤️ <br> Copyright © 2023 Kodelab, Inc.",
       "style": "light",
       "links": []
     },
