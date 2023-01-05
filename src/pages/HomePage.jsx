@@ -3,16 +3,17 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import  {faCode, faFlask}  from '@fortawesome/free-solid-svg-icons'
 
 import styles from './index.module.css';
 
-function HomepageHeader() {
+function HomePage() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <header className={clsx('hero', styles.heroBanner)}>
       <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
+        <h1 className="hero__title"> <FontAwesomeIcon icon={faCode} /> {siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
@@ -38,16 +39,4 @@ function HomepageHeader() {
   );
 }
 
-export default function Home() {
-  const { siteConfig } = useDocusaurusContext();
-  return (
-    <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Tempat nya tutor koding berbahasa indonesia! <head />">
-      <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
-    </Layout>
-  );
-}
+export default HomePage

@@ -26,7 +26,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/Users/fajarspace/Documents/github/kodelab-roadmap/sidebars.js",
+          "sidebarPath": "C:\\Users\\fajarspace\\Documents\\github\\kodelab-roadmap\\src\\components\\Sidebars.jsx",
           "editUrl": "https://github.com/fajarspace/kodelab-roadmap/tree/master/"
         },
         "blog": {
@@ -34,7 +34,7 @@ export default {
           "editUrl": "https://github.com/fajarspace/kodelab-roadmap/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
-          "customCss": "/Users/fajarspace/Documents/github/kodelab-roadmap/static/css/custom.css"
+          "customCss": "C:\\Users\\fajarspace\\Documents\\github\\kodelab-roadmap\\static\\css\\custom.css"
         }
       }
     ]
