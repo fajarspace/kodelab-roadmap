@@ -21,12 +21,15 @@ export default {
     "path": "i18n",
     "localeConfigs": {}
   },
+  "plugins": [
+    "docusaurus-plugin-sass"
+  ],
   "presets": [
     [
       "classic",
       {
         "docs": {
-          "sidebarPath": "C:\\Users\\fajarspace\\Documents\\github\\kodelab-roadmap\\src\\components\\Sidebars.jsx",
+          "sidebarPath": "/Users/fajarspace/Documents/github/kodelab-roadmap/src/components/Sidebars.jsx",
           "editUrl": "https://github.com/fajarspace/kodelab-roadmap/tree/master/"
         },
         "blog": {
@@ -34,7 +37,7 @@ export default {
           "editUrl": "https://github.com/fajarspace/kodelab-roadmap/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
-          "customCss": "C:\\Users\\fajarspace\\Documents\\github\\kodelab-roadmap\\static\\css\\custom.css"
+          "customCss": "/Users/fajarspace/Documents/github/kodelab-roadmap/static/sass/main.scss"
         }
       }
     ]
@@ -308,7 +311,6 @@ export default {
     "static"
   ],
   "customFields": {},
-  "plugins": [],
   "themes": [],
   "scripts": [],
   "headTags": [],

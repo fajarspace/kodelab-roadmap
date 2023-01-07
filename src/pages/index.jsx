@@ -7,7 +7,7 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import HomePage from "./HomePage";
 import Contributors from "../components/Contributors";
 
-import '../../static/sass/style.scss';
+import '../../static/sass/main.scss';
 
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
@@ -18,7 +18,7 @@ export default function Home() {
       <HomePage />
       <main>
         <HomepageFeatures />
-        <Contributors/>
+        <Contributors />
       </main>
     </Layout>
   );

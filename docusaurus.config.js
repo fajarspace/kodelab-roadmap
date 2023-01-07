@@ -25,7 +25,7 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-
+  plugins: ['docusaurus-plugin-sass'],
   presets: [
     [
       'classic',
@@ -46,7 +46,7 @@ const config = {
             'https://github.com/fajarspace/kodelab-roadmap/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
-          customCss: require.resolve('./static/css/custom.css'),
+          customCss: require.resolve('./static/sass/main.scss'),
         },
       }),
     ],
