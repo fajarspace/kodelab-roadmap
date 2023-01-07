@@ -18,7 +18,7 @@ function HomePage() {
         </h2>
       </div>
       <div className='hero-image' >
-        <img src={require('../../static/img/docusaurus.png')} alt="" />
+        <img src='../../static/img/science.svg' alt="" />
         <h2>asd</h2>
       </div>
     </div>
