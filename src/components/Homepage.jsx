@@ -7,7 +7,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import SearchBar from "../theme/SearchBar";
 import "../../static/sass/main.scss";
 
-function HomePage() {
+function Homepage() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <div className="hero-body container">
@@ -29,4 +29,4 @@ function HomePage() {
   );
 }
 
-export default HomePage
+export default Homepage

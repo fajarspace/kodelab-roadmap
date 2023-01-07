@@ -3,7 +3,7 @@ import React from 'react';
 // import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomePage from "../components/HomePage";
+import Homepage from "../components/Homepage";
 import Contributors from "../components/Contributors";
 
 import '../../static/sass/main.scss';
@@ -15,7 +15,7 @@ export default function Home() {
       title={`Hello from ${siteConfig.title}`}
       description="Tempat nya tutor koding berbahasa indonesia! <head />">
       <main>
-        <HomePage />
+        <Homepage />
         <Contributors />
       </main>
     </Layout>
