@@ -17,7 +17,10 @@ function HomePage() {
         <h2 className="subtitle is-5 is-muted">
           Tempat nya tutor koding berbahasa indonesia!
         </h2>
-        <SearchBar />
+        <div className='cari' >
+          <SearchBar />
+        </div>
+
       </div>
       <div className='hero-image' >
         <img src='https://raw.githubusercontent.com/fajarspace/kodelab-roadmap/master/static/img/science.svg' alt="" />
