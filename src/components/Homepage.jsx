@@ -1,9 +1,9 @@
 import React from 'react';
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
+// import clsx from 'clsx';
+// import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCode, faFlask } from '@fortawesome/free-solid-svg-icons'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faCode, faFlask } from '@fortawesome/free-solid-svg-icons'
 import SearchBar from "../theme/SearchBar";
 import "../../static/sass/main.scss";
 
