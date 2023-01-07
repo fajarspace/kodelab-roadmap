@@ -891,11 +891,6 @@
     "default": [
       {
         "type": "jsx",
-        "permalink": "/HomePage",
-        "source": "@site/src/pages/HomePage.jsx"
-      },
-      {
-        "type": "jsx",
         "permalink": "/",
         "source": "@site/src/pages/index.jsx"
       },

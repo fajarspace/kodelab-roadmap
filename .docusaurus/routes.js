@@ -93,11 +93,6 @@ export default [
     exact: true
   },
   {
-    path: '/HomePage',
-    component: ComponentCreator('/HomePage', '9be'),
-    exact: true
-  },
-  {
     path: '/markdown-page',
     component: ComponentCreator('/markdown-page', 'db4'),
     exact: true

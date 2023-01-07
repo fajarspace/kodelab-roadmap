@@ -179,17 +179,10 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-welcomed-9-f-ffb"
   },
-  "/HomePage-9be": {
-    "__comp": "__comp---site-src-pages-home-page-jsx-3-ec-1ea",
-    "__context": {
-      "plugin": "plugin---home-pagefba-c64"
-    },
-    "config": "config---home-page-5-e-9-f6e"
-  },
   "/markdown-page-db4": {
     "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "plugin---home-pagefba-c64"
+      "plugin": "plugin---markdown-pagefba-7e3"
     },
     "content": "content---markdown-page-393-028"
   },
@@ -285,8 +278,8 @@
   "/-986": {
     "__comp": "__comp---site-src-pages-index-jsx-9-dd-cb1",
     "__context": {
-      "plugin": "plugin---home-pagefba-c64"
+      "plugin": "plugin---markdown-pagefba-7e3"
     },
-    "config": "config---home-page-5-e-9-f6e"
+    "config": "config---5-e-9-4f3"
   }
 }

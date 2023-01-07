@@ -1,0 +1,17 @@
+// Navbar
+.navbar {
+  .navbar__inner {
+    width: 85%;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: none;
+  }
+}
+
+@media only screen and (max-width: 996px) {
+  .navbar {
+    .navbar__inner {
+      width: 100%;
+    }
+  }
+}

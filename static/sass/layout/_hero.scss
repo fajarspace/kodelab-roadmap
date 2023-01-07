@@ -1,0 +1,25 @@
+.hero-body {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+
+  .title {}
+
+  .title {
+    &.is-bold {
+      font-weight: 700;
+    }
+  }
+
+  .subtitle {
+    &.is-muted {}
+  }
+
+  .hero-image {
+    background-color: red;
+  }
+
+}
