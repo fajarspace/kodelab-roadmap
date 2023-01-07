@@ -5,6 +5,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCode, faFlask } from '@fortawesome/free-solid-svg-icons'
+import SearchBar from "../theme/SearchBar";
 import "../../static/sass/main.scss";
 
 function HomePage() {
@@ -16,10 +17,10 @@ function HomePage() {
         <h2 className="subtitle is-5 is-muted">
           Tempat nya tutor koding berbahasa indonesia!
         </h2>
+        <SearchBar />
       </div>
       <div className='hero-image' >
-        <img src='../../static/img/science.svg' alt="" />
-        <h2>asd</h2>
+        <img src='https://raw.githubusercontent.com/fajarspace/kodelab-roadmap/master/static/img/science.svg' alt="" />
       </div>
     </div>
 
