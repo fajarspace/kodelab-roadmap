@@ -1,0 +1,7 @@
+{
+  "type": "mdx",
+  "permalink": "/roadmap/frontend",
+  "source": "@site/src/pages/roadmap/frontend.md",
+  "description": "frontend",
+  "frontMatter": {}
+}

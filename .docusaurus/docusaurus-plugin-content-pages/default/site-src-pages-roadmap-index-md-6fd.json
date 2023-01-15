@@ -2,9 +2,6 @@
   "type": "mdx",
   "permalink": "/roadmap/",
   "source": "@site/src/pages/roadmap/index.md",
-  "title": "Tutorial Intro",
-  "description": "Let's discover Docusaurus in less than 5 minutes.",
-  "frontMatter": {
-    "sidebar_position": 1
-  }
+  "description": "asd",
+  "frontMatter": {}
 }

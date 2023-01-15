@@ -72,7 +72,7 @@ const config = {
             to: '/blog', label: 'Blog', position: 'left'
           },
           {
-            to: '/docs/category/roadmaps', label: 'Roadmaps', position: 'left'
+            to: '/roadmap', label: 'Roadmaps', position: 'left'
           },
           // {
           //   href: 'https://github.com/fajarspace/kodelab-roadmap/',

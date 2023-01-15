@@ -63,13 +63,23 @@ export default [
     exact: true
   },
   {
+    path: '/roadmap/',
+    component: ComponentCreator('/roadmap/', 'c4d'),
+    exact: true
+  },
+  {
+    path: '/roadmap/frontend',
+    component: ComponentCreator('/roadmap/frontend', 'd91'),
+    exact: true
+  },
+  {
     path: '/search',
     component: ComponentCreator('/search', '0b8'),
     exact: true
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '910'),
+    component: ComponentCreator('/docs', '4d9'),
     routes: [
       {
         path: '/docs/category/belajar-c',
@@ -80,12 +90,6 @@ export default [
       {
         path: '/docs/category/belajar-html',
         component: ComponentCreator('/docs/category/belajar-html', 'd0e'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/category/roadmaps',
-        component: ComponentCreator('/docs/category/roadmaps', 'ee4'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -158,12 +162,6 @@ export default [
       {
         path: '/docs/intro',
         component: ComponentCreator('/docs/intro', 'aed'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/roadmap/Frontend',
-        component: ComponentCreator('/docs/roadmap/Frontend', '3f0'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

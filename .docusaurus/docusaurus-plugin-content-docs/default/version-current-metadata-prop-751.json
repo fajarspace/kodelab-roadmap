@@ -83,21 +83,6 @@
       },
       {
         "type": "category",
-        "label": "Roadmaps",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "Frontend",
-            "href": "/docs/roadmap/Frontend",
-            "docId": "roadmap/Frontend"
-          }
-        ],
-        "href": "/docs/category/roadmaps"
-      },
-      {
-        "type": "category",
         "label": "Belajar HTML",
         "collapsible": true,
         "collapsed": true,
@@ -110,7 +95,7 @@
           },
           {
             "type": "link",
-            "label": "Basic HTML",
+            "label": "Dasar HTML",
             "href": "/docs/html/basic-html",
             "docId": "html/basic-html"
           },
@@ -203,7 +188,7 @@
     },
     "html/basic-html": {
       "id": "html/basic-html",
-      "title": "Basic HTML",
+      "title": "Dasar HTML",
       "description": "",
       "sidebar": "tutorialSidebar"
     },
@@ -229,12 +214,6 @@
       "id": "intro",
       "title": "Tutorial Intro",
       "description": "Let's discover Docusaurus in less than 5 minutes.",
-      "sidebar": "tutorialSidebar"
-    },
-    "roadmap/Frontend": {
-      "id": "roadmap/Frontend",
-      "title": "Frontend",
-      "description": "Step by step untuk menjadi Frontend developer",
       "sidebar": "tutorialSidebar"
     },
     "tutorial-basics/congratulations": {

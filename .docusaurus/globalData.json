@@ -61,11 +61,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "roadmap/Frontend",
-              "path": "/docs/roadmap/Frontend",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "tutorial-basics/congratulations",
               "path": "/docs/tutorial-basics/congratulations",
               "sidebar": "tutorialSidebar"
@@ -113,11 +108,6 @@
             {
               "id": "/category/tutorial---extras",
               "path": "/docs/category/tutorial---extras",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/roadmaps",
-              "path": "/docs/category/roadmaps",
               "sidebar": "tutorialSidebar"
             },
             {

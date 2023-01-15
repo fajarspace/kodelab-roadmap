@@ -1,7 +1,7 @@
 {
   "unversionedId": "html/basic-html",
   "id": "html/basic-html",
-  "title": "Basic HTML",
+  "title": "Dasar HTML",
   "description": "",
   "source": "@site/docs/html/basic-html.md",
   "sourceDirName": "html",
@@ -14,7 +14,7 @@
   "sidebarPosition": 2,
   "frontMatter": {
     "sidebar_position": 2,
-    "title": "Basic HTML"
+    "title": "Dasar HTML"
   },
   "sidebar": "tutorialSidebar",
   "previous": {

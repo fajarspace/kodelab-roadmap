@@ -158,7 +158,7 @@
             {
               "unversionedId": "html/basic-html",
               "id": "html/basic-html",
-              "title": "Basic HTML",
+              "title": "Dasar HTML",
               "description": "",
               "source": "@site/docs/html/basic-html.md",
               "sourceDirName": "html",
@@ -171,7 +171,7 @@
               "sidebarPosition": 2,
               "frontMatter": {
                 "sidebar_position": 2,
-                "title": "Basic HTML"
+                "title": "Dasar HTML"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -207,7 +207,7 @@
                 "permalink": "/docs/category/belajar-html"
               },
               "next": {
-                "title": "Basic HTML",
+                "title": "Dasar HTML",
                 "permalink": "/docs/html/basic-html"
               }
             },
@@ -259,7 +259,7 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Basic HTML",
+                "title": "Dasar HTML",
                 "permalink": "/docs/html/basic-html"
               },
               "next": {
@@ -288,33 +288,6 @@
               "next": {
                 "title": "Tutorial - Basics",
                 "permalink": "/docs/category/tutorial---basics"
-              }
-            },
-            {
-              "unversionedId": "roadmap/Frontend",
-              "id": "roadmap/Frontend",
-              "title": "Frontend",
-              "description": "Step by step untuk menjadi Frontend developer",
-              "source": "@site/docs/roadmap/Frontend.md",
-              "sourceDirName": "roadmap",
-              "slug": "/roadmap/Frontend",
-              "permalink": "/docs/roadmap/Frontend",
-              "draft": false,
-              "editUrl": "https://github.com/fajarspace/kodelab-roadmap/tree/master/docs/roadmap/Frontend.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Roadmaps",
-                "permalink": "/docs/category/roadmaps"
-              },
-              "next": {
-                "title": "Belajar HTML",
-                "permalink": "/docs/category/belajar-html"
               }
             },
             {
@@ -529,8 +502,8 @@
                 "permalink": "/docs/tutorial-extras/manage-docs-versions"
               },
               "next": {
-                "title": "Roadmaps",
-                "permalink": "/docs/category/roadmaps"
+                "title": "Belajar HTML",
+                "permalink": "/docs/category/belajar-html"
               }
             }
           ],
@@ -598,23 +571,6 @@
                   "type": "generated-index",
                   "slug": "/category/tutorial---extras",
                   "permalink": "/docs/category/tutorial---extras"
-                }
-              },
-              {
-                "type": "category",
-                "label": "Roadmaps",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "roadmap/Frontend"
-                  }
-                ],
-                "link": {
-                  "type": "generated-index",
-                  "slug": "/category/roadmaps",
-                  "permalink": "/docs/category/roadmaps"
                 }
               },
               {
@@ -1044,6 +1000,18 @@
         "frontMatter": {
           "title": "Markdown page example"
         }
+      },
+      {
+        "type": "mdx",
+        "permalink": "/roadmap/frontend",
+        "source": "@site/src/pages/roadmap/frontend.md",
+        "description": "frontend",
+        "frontMatter": {}
+      },
+      {
+        "type": "jsx",
+        "permalink": "/roadmap/",
+        "source": "@site/src/pages/roadmap/index.jsx"
       }
     ]
   },
