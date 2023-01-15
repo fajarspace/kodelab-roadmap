@@ -62,11 +62,6 @@ export default {
           "position": "left"
         },
         {
-          "to": "/kelas",
-          "label": "Kelas",
-          "position": "left"
-        },
-        {
           "to": "/docs/category/roadmaps",
           "label": "Roadmaps",
           "position": "left"
