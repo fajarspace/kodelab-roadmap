@@ -1002,6 +1002,11 @@
         }
       },
       {
+        "type": "jsx",
+        "permalink": "/video/",
+        "source": "@site/src/pages/video/index.jsx"
+      },
+      {
         "type": "mdx",
         "permalink": "/roadmap/frontend",
         "source": "@site/src/pages/roadmap/frontend.md",

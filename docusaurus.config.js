@@ -72,6 +72,9 @@ const config = {
             to: '/blog', label: 'Blog', position: 'left'
           },
           {
+            to: '/video', label: 'Video', position: 'left'
+          },
+          {
             to: '/roadmap', label: 'Roadmaps', position: 'left'
           },
           // {

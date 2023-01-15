@@ -62,6 +62,11 @@ export default {
           "position": "left"
         },
         {
+          "to": "/video",
+          "label": "Video",
+          "position": "left"
+        },
+        {
           "to": "/roadmap",
           "label": "Roadmaps",
           "position": "left"

@@ -78,6 +78,11 @@ export default [
     exact: true
   },
   {
+    path: '/video/',
+    component: ComponentCreator('/video/', '854'),
+    exact: true
+  },
+  {
     path: '/docs',
     component: ComponentCreator('/docs', '4d9'),
     routes: [

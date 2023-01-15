@@ -31,6 +31,7 @@ export default {
   '6875c492': [() => import(/* webpackChunkName: '6875c492' */ '@theme/BlogTagsPostsPage'), '@theme/BlogTagsPostsPage', require.resolveWeak('@theme/BlogTagsPostsPage')],
   '73664a40': [() => import(/* webpackChunkName: '73664a40' */ '@site/blog/2019-05-29-long-blog-post.md'), '@site/blog/2019-05-29-long-blog-post.md', require.resolveWeak('@site/blog/2019-05-29-long-blog-post.md')],
   '7661071f': [() => import(/* webpackChunkName: '7661071f' */ '@site/blog/2021-08-26-welcome/index.md?truncated=true'), '@site/blog/2021-08-26-welcome/index.md?truncated=true', require.resolveWeak('@site/blog/2021-08-26-welcome/index.md?truncated=true')],
+  '7d09e142': [() => import(/* webpackChunkName: '7d09e142' */ '@site/src/pages/video/index.jsx'), '@site/src/pages/video/index.jsx', require.resolveWeak('@site/src/pages/video/index.jsx')],
   '814f3328': [() => import(/* webpackChunkName: '814f3328' */ '~blog/default/blog-post-list-prop-default.json'), '~blog/default/blog-post-list-prop-default.json', require.resolveWeak('~blog/default/blog-post-list-prop-default.json')],
   '822bd8ab': [() => import(/* webpackChunkName: '822bd8ab' */ '@site/docs/tutorial-basics/congratulations.md'), '@site/docs/tutorial-basics/congratulations.md', require.resolveWeak('@site/docs/tutorial-basics/congratulations.md')],
   '82cec1d2': [() => import(/* webpackChunkName: '82cec1d2' */ '@site/src/pages/roadmap/index.jsx'), '@site/src/pages/roadmap/index.jsx', require.resolveWeak('@site/src/pages/roadmap/index.jsx')],

@@ -7,6 +7,14 @@ $turquoise: blue;
   margin: 0 auto;
   max-width: 800px;
   padding-bottom: 2em;
+
+  a.card {
+    text-decoration: none;
+  }
+
+  a.card:hover {
+    text-decoration: none;
+  }
 }
 
 //Grid Container
