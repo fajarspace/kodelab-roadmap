@@ -10,22 +10,27 @@ import "../../static/sass/main.scss";
 function Homepage() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <div className="hero-body">
-      <div className="judul">
-        <h1 className="title is-1 is-bold is-spaced">{siteConfig.title}</h1>
-        <h2 className="subtitle is-5 is-muted">
-          Tempat nya tutor koding berbahasa indonesia!
-        </h2>
+    <>
+      <div className='header-page container'>
+        <h1>{siteConfig.title}</h1>
+        <p>{siteConfig.tagline}</p>
         <div className='cari' >
           <SearchBar />
         </div>
-
       </div>
-      <div className='hero-image' >
-        <img src='https://raw.githubusercontent.com/fajarspace/kodelab-roadmap/master/static/img/science.svg' alt="" />
-      </div>
-    </div>
+      {/* <div className="hero-body">
+        <div className="judul">
 
+          <div className='cari' >
+            <SearchBar />
+          </div>
+
+        </div>
+        <div className='hero-image' >
+          <img src='https://raw.githubusercontent.com/fajarspace/kodelab-roadmap/master/static/img/science.svg' alt="" />
+        </div>
+      </div> */}
+    </>
   );
 }
 

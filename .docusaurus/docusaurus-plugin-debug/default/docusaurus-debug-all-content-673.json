@@ -224,9 +224,9 @@
               "editUrl": "https://github.com/fajarspace/kodelab-roadmap/tree/master/docs/html/struktur-dasar-html.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 3,
+              "sidebarPosition": 4,
               "frontMatter": {
-                "sidebar_position": 3,
+                "sidebar_position": 4,
                 "title": "Struktur dasar HTML"
               },
               "sidebar": "tutorialSidebar",
@@ -252,9 +252,9 @@
               "editUrl": "https://github.com/fajarspace/kodelab-roadmap/tree/master/docs/html/tag-dan-elemen-html.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 2,
+              "sidebarPosition": 3,
               "frontMatter": {
-                "sidebar_position": 2,
+                "sidebar_position": 3,
                 "title": "Tag dan Element pada HTML"
               },
               "sidebar": "tutorialSidebar",

@@ -11,9 +11,9 @@
   "editUrl": "https://github.com/fajarspace/kodelab-roadmap/tree/master/docs/html/struktur-dasar-html.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 3,
+  "sidebarPosition": 4,
   "frontMatter": {
-    "sidebar_position": 3,
+    "sidebar_position": 4,
     "title": "Struktur dasar HTML"
   },
   "sidebar": "tutorialSidebar",

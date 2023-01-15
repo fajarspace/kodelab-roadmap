@@ -3,24 +3,95 @@ import React from 'react'
 const Roadmaplist = () => {
   return (
     <>
-      <div className="container roadmap-header">
+      <div className='header-page container'>
         <h1>Roadmaps</h1>
+        <p>Just a bit of fun while wondering about using simple and subtle CSS gradients for backgrounds...</p>
       </div>
-      <main className="page-content">
-        <a href='roadmap/frontend' className="card">
-          <div className="content">
-            <h2 className="title">Frontend Developer</h2>
-            <p className="">Step by step untuk menjadi frontend developer</p>
-          </div>
-        </a>
-        <a href='' className="card">
-          <div className="content">
-            <h2 className="title">Backend Developer</h2>
-            <p className="">Step by step untuk menjadi backend developer</p>
-          </div>
-        </a>
+      <div className="hero-roadmap container">
+        <section class="row list_node_modules-@docusaurus-theme-classic-lib-theme-DocCategoryGeneratedIndexPage-styles-module">
+          <article class="col col--6 margin-bottom--lg">
+            <a class="card padding--lg cardContainer_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module" href="roadmap/frontend"><h2 class="text--truncate cardTitle_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module">Frontend Developer</h2></a>
+          </article>
+          <article class="col col--6 margin-bottom--lg">
+            <a class="card padding--lg cardContainer_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module" href="roadmap/backend"><h2 class="text--truncate cardTitle_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module">Backend Developer</h2></a>
+          </article>
+          <article class="col col--6 margin-bottom--lg">
+            <a class="card padding--lg cardContainer_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module" href="/docs/html/perkenalan"><h2 class="text--truncate cardTitle_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module">Frontend</h2></a>
+          </article>
+        </section>
+      </div>
+      {/* <div className="box">
 
-      </main>
+        <div className="kartu-utama">
+          <div className=" card [ is-collapsed ] ">
+            <div className="kartu__inner [ js-expander ]">
+              <span>Frontend developer</span>
+              <i className="fa fa-folder-o"></i>
+            </div>
+            <div className="kartu__expander">
+              <i className="fa fa-close [ js-collapser ]"></i>
+              Expander
+            </div>
+          </div>
+
+          <div className=" kartu [ is-collapsed ] ">
+            <div className="kartu__inner [ js-expander ]">
+              <span>kartu</span>
+              <i className="fa fa-folder-o"></i>
+            </div>
+            <div className="kartu__expander">
+              <i className="fa fa-close [ js-collapser ]"></i>
+              Expander
+            </div>
+          </div>
+
+          <div className=" kartu [ is-collapsed ] ">
+            <div className="kartu__inner [ js-expander ]">
+              <span>kartu</span>
+              <i className="fa fa-folder-o"></i>
+            </div>
+            <div className="kartu__expander">
+              <i className="fa fa-close [ js-collapser ]"></i>
+              Expander
+            </div>
+          </div>
+
+          <div className=" kartu [ is-collapsed ] ">
+            <div className="kartu__inner [ js-expander ]">
+              <span>kartu</span>
+              <i className="fa fa-folder-o"></i>
+            </div>
+            <div className="kartu__expander">
+              <i className="fa fa-close [ js-collapser ]"></i>
+              Expander
+            </div>
+          </div>
+
+          <div className=" kartu [ is-collapsed ] ">
+            <div className="kartu__inner [ js-expander ]">
+              <span>kartu</span>
+              <i className="fa fa-folder-o"></i>
+            </div>
+            <div className="kartu__expander">
+              <i className="fa fa-close [ js-collapser ]"></i>
+              Expander
+            </div>
+          </div>
+
+          <div className=" kartu [ is-collapsed ] ">
+            <div className="kartu__inner [ js-expander ]">
+              <span>kartu</span>
+              <i className="fa fa-folder-o"></i>
+            </div>
+            <div className="kartu__expander">
+              <i className="fa fa-close [ js-collapser ]"></i>
+              Expander
+            </div>
+          </div>
+
+        </div>
+
+      </div> */}
     </>
   )
 }
