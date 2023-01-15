@@ -1,0 +1,33 @@
+/* (Just ignore)top banner style */
+.top-banner {
+  margin-bottom: 30px;
+  text-align: center;
+  background: rgb(242, 146, 0);
+  background: linear-gradient(90deg, rgba(242, 146, 0, 1) 23%, rgba(218, 214, 89, 1) 100%);
+}
+
+.top-banner a,
+.top-banner span {
+  display: inline-block;
+}
+
+.top-banner a {
+  width: 100%;
+  padding: 5px 0;
+  text-decoration: none;
+  color: #fff;
+  color: rgba(255, 255, 255, .8);
+}
+
+.top-banner span {
+  width: 50px;
+  font-weight: bold;
+  height: 28px;
+  line-height: 28px;
+  background-color: #5C99D7;
+  border-radius: 5px;
+}
+
+.top-banner a:hover {
+  color: #fff9e0;
+}

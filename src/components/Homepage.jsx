@@ -10,7 +10,7 @@ import "../../static/sass/main.scss";
 function Homepage() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <div className="hero-body container">
+    <div className="hero-body">
       <div className="judul">
         <h1 className="title is-1 is-bold is-spaced">{siteConfig.title}</h1>
         <h2 className="subtitle is-5 is-muted">

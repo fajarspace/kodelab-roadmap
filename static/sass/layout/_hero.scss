@@ -1,6 +1,8 @@
 .hero-body {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   display: flex;
   align-items: center;
   align-content: center;
@@ -62,8 +64,11 @@
 
 
 @media only screen and (max-width: 996px) {
-  .hero-body {
-    display: block;
-
+  main {
+    .hero-body {
+      display: block;
+      width: 90%;
+    }
   }
+
 }
