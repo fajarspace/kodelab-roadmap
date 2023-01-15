@@ -1,0 +1,28 @@
+{
+  "unversionedId": "html/struktur-dasar-html",
+  "id": "html/struktur-dasar-html",
+  "title": "Struktur dasar HTML",
+  "description": "",
+  "source": "@site/docs/html/struktur-dasar-html.md",
+  "sourceDirName": "html",
+  "slug": "/html/struktur-dasar-html",
+  "permalink": "/docs/html/struktur-dasar-html",
+  "draft": false,
+  "editUrl": "https://github.com/fajarspace/kodelab-roadmap/tree/master/docs/html/struktur-dasar-html.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Struktur dasar HTML"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tag dan Element pada HTML",
+    "permalink": "/docs/html/tag-dan-elemen-html"
+  },
+  "next": {
+    "title": "Belajar C++",
+    "permalink": "/docs/category/belajar-c"
+  }
+}

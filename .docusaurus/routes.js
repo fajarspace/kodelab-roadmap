@@ -69,11 +69,17 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '652'),
+    component: ComponentCreator('/docs', '910'),
     routes: [
       {
-        path: '/docs/category/c',
-        component: ComponentCreator('/docs/category/c', '879'),
+        path: '/docs/category/belajar-c',
+        component: ComponentCreator('/docs/category/belajar-c', '376'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/category/belajar-html',
+        component: ComponentCreator('/docs/category/belajar-html', 'd0e'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -122,6 +128,30 @@ export default [
       {
         path: '/docs/cpp/variabel-tipedata-konstanta',
         component: ComponentCreator('/docs/cpp/variabel-tipedata-konstanta', 'd55'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/html/basic-html',
+        component: ComponentCreator('/docs/html/basic-html', 'cd2'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/html/perkenalan',
+        component: ComponentCreator('/docs/html/perkenalan', '1c0'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/html/struktur-dasar-html',
+        component: ComponentCreator('/docs/html/struktur-dasar-html', 'e47'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/html/tag-dan-elemen-html',
+        component: ComponentCreator('/docs/html/tag-dan-elemen-html', '89f'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

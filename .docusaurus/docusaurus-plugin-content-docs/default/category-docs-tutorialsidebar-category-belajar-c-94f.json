@@ -1,0 +1,15 @@
+{
+  "title": "Belajar C++",
+  "slug": "/category/belajar-c",
+  "permalink": "/docs/category/belajar-c",
+  "navigation": {
+    "previous": {
+      "title": "Struktur dasar HTML",
+      "permalink": "/docs/html/struktur-dasar-html"
+    },
+    "next": {
+      "title": "Apa itu C++ ?",
+      "permalink": "/docs/cpp/perkenalan"
+    }
+  }
+}

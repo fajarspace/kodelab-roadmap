@@ -149,16 +149,20 @@
       "plugin": "2542bc8b"
     }
   },
-  "/docs-652": {
+  "/docs-910": {
     "__comp": "1be78505",
     "__context": {
       "plugin": "c1a54b90"
     },
     "versionMetadata": "935f2afb"
   },
-  "/docs/category/c-879": {
+  "/docs/category/belajar-c-376": {
     "__comp": "14eb3368",
-    "categoryGeneratedIndex": "3a4d3890"
+    "categoryGeneratedIndex": "ca86d230"
+  },
+  "/docs/category/belajar-html-d0e": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "b2e56d76"
   },
   "/docs/category/roadmaps-ee4": {
     "__comp": "14eb3368",
@@ -191,6 +195,22 @@
   "/docs/cpp/variabel-tipedata-konstanta-d55": {
     "__comp": "17896441",
     "content": "5f8887ce"
+  },
+  "/docs/html/basic-html-cd2": {
+    "__comp": "17896441",
+    "content": "4a8915bc"
+  },
+  "/docs/html/perkenalan-1c0": {
+    "__comp": "17896441",
+    "content": "04c03a58"
+  },
+  "/docs/html/struktur-dasar-html-e47": {
+    "__comp": "17896441",
+    "content": "cbcf7028"
+  },
+  "/docs/html/tag-dan-elemen-html-89f": {
+    "__comp": "17896441",
+    "content": "248e07ef"
   },
   "/docs/intro-aed": {
     "__comp": "17896441",

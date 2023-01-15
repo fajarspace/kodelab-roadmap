@@ -36,6 +36,26 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "html/basic-html",
+              "path": "/docs/html/basic-html",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "html/perkenalan",
+              "path": "/docs/html/perkenalan",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "html/struktur-dasar-html",
+              "path": "/docs/html/struktur-dasar-html",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "html/tag-dan-elemen-html",
+              "path": "/docs/html/tag-dan-elemen-html",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "intro",
               "path": "/docs/intro",
               "sidebar": "tutorialSidebar"
@@ -101,8 +121,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/c",
-              "path": "/docs/category/c",
+              "id": "/category/belajar-html",
+              "path": "/docs/category/belajar-html",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/belajar-c",
+              "path": "/docs/category/belajar-c",
               "sidebar": "tutorialSidebar"
             }
           ],

@@ -1,0 +1,28 @@
+{
+  "unversionedId": "html/perkenalan",
+  "id": "html/perkenalan",
+  "title": "Perkenalan",
+  "description": "",
+  "source": "@site/docs/html/perkenalan.md",
+  "sourceDirName": "html",
+  "slug": "/html/perkenalan",
+  "permalink": "/docs/html/perkenalan",
+  "draft": false,
+  "editUrl": "https://github.com/fajarspace/kodelab-roadmap/tree/master/docs/html/perkenalan.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Perkenalan"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Belajar HTML",
+    "permalink": "/docs/category/belajar-html"
+  },
+  "next": {
+    "title": "Basic HTML",
+    "permalink": "/docs/html/basic-html"
+  }
+}

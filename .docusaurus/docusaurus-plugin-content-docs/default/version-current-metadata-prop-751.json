@@ -98,7 +98,40 @@
       },
       {
         "type": "category",
-        "label": "C++",
+        "label": "Belajar HTML",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Perkenalan",
+            "href": "/docs/html/perkenalan",
+            "docId": "html/perkenalan"
+          },
+          {
+            "type": "link",
+            "label": "Basic HTML",
+            "href": "/docs/html/basic-html",
+            "docId": "html/basic-html"
+          },
+          {
+            "type": "link",
+            "label": "Tag dan Element pada HTML",
+            "href": "/docs/html/tag-dan-elemen-html",
+            "docId": "html/tag-dan-elemen-html"
+          },
+          {
+            "type": "link",
+            "label": "Struktur dasar HTML",
+            "href": "/docs/html/struktur-dasar-html",
+            "docId": "html/struktur-dasar-html"
+          }
+        ],
+        "href": "/docs/category/belajar-html"
+      },
+      {
+        "type": "category",
+        "label": "Belajar C++",
         "collapsible": true,
         "collapsed": true,
         "items": [
@@ -133,7 +166,7 @@
             "docId": "cpp/variabel-tipedata-konstanta"
           }
         ],
-        "href": "/docs/category/c"
+        "href": "/docs/category/belajar-c"
       }
     ]
   },
@@ -166,6 +199,30 @@
       "id": "cpp/variabel-tipedata-konstanta",
       "title": "Variabel, tipe data & konstanta",
       "description": "Variabel",
+      "sidebar": "tutorialSidebar"
+    },
+    "html/basic-html": {
+      "id": "html/basic-html",
+      "title": "Basic HTML",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "html/perkenalan": {
+      "id": "html/perkenalan",
+      "title": "Perkenalan",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "html/struktur-dasar-html": {
+      "id": "html/struktur-dasar-html",
+      "title": "Struktur dasar HTML",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "html/tag-dan-elemen-html": {
+      "id": "html/tag-dan-elemen-html",
+      "title": "Tag dan Element pada HTML",
+      "description": "",
       "sidebar": "tutorialSidebar"
     },
     "intro": {

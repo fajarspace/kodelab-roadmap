@@ -4,7 +4,7 @@ const Bannertop = () => {
   return (
     <>
       <div className="top-banner">
-        <a href="https://ouo.io/" target="_blank">Masih versi <span>BETA</span></a>
+        <a href="https://github.com/fajarspace/kodelab-roadmap" target="_blank">Masih versi <span>BETA</span></a>
       </div>
     </>
   )

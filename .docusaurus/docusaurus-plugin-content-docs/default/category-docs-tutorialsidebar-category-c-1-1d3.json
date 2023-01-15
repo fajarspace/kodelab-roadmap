@@ -1,0 +1,15 @@
+{
+  "title": "C++",
+  "slug": "/category/c-1",
+  "permalink": "/docs/category/c-1",
+  "navigation": {
+    "previous": {
+      "title": "Pengenalan ?",
+      "permalink": "/docs/html/pengenalan"
+    },
+    "next": {
+      "title": "Apa itu C++ ?",
+      "permalink": "/docs/cpp/perkenalan"
+    }
+  }
+}

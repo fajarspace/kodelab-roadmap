@@ -1,0 +1,15 @@
+{
+  "title": "HTML",
+  "slug": "/category/html",
+  "permalink": "/docs/category/html",
+  "navigation": {
+    "previous": {
+      "title": "Frontend",
+      "permalink": "/docs/roadmap/Frontend"
+    },
+    "next": {
+      "title": "Pengenalan",
+      "permalink": "/docs/html/pengenalan"
+    }
+  }
+}

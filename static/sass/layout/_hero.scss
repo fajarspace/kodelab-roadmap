@@ -23,7 +23,10 @@
   }
 
   .subtitle {
-    &.is-muted {}
+    &.is-muted {
+      font-weight: 400;
+      font-size: 1.8em;
+    }
   }
 
   .hero-image {

@@ -1,0 +1,15 @@
+{
+  "title": "Belajar HTML",
+  "slug": "/category/belajar-html",
+  "permalink": "/docs/category/belajar-html",
+  "navigation": {
+    "previous": {
+      "title": "Frontend",
+      "permalink": "/docs/roadmap/Frontend"
+    },
+    "next": {
+      "title": "Perkenalan",
+      "permalink": "/docs/html/perkenalan"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Tutorial HTML",
+  "slug": "/category/tutorial-html",
+  "permalink": "/docs/category/tutorial-html",
+  "navigation": {
+    "previous": {
+      "title": "Frontend",
+      "permalink": "/docs/roadmap/Frontend"
+    },
+    "next": {
+      "title": "Pengenalan",
+      "permalink": "/docs/html/pengenalan"
+    }
+  }
+}

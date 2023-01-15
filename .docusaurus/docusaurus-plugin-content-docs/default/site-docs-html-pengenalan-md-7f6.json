@@ -1,0 +1,28 @@
+{
+  "unversionedId": "html/pengenalan",
+  "id": "html/pengenalan",
+  "title": "Pengenalan",
+  "description": "",
+  "source": "@site/docs/html/pengenalan.md",
+  "sourceDirName": "html",
+  "slug": "/html/pengenalan",
+  "permalink": "/docs/html/pengenalan",
+  "draft": false,
+  "editUrl": "https://github.com/fajarspace/kodelab-roadmap/tree/master/docs/html/pengenalan.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "title": "Pengenalan"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Belajar HTML",
+    "permalink": "/docs/category/belajar-html"
+  },
+  "next": {
+    "title": "Belajar C++",
+    "permalink": "/docs/category/belajar-c"
+  }
+}

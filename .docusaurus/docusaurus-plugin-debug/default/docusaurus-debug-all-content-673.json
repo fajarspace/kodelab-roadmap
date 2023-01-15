@@ -95,8 +95,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "C++",
-                "permalink": "/docs/category/c"
+                "title": "Belajar C++",
+                "permalink": "/docs/category/belajar-c"
               },
               "next": {
                 "title": "Cara kerja C++",
@@ -156,6 +156,118 @@
               }
             },
             {
+              "unversionedId": "html/basic-html",
+              "id": "html/basic-html",
+              "title": "Basic HTML",
+              "description": "",
+              "source": "@site/docs/html/basic-html.md",
+              "sourceDirName": "html",
+              "slug": "/html/basic-html",
+              "permalink": "/docs/html/basic-html",
+              "draft": false,
+              "editUrl": "https://github.com/fajarspace/kodelab-roadmap/tree/master/docs/html/basic-html.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "title": "Basic HTML"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Perkenalan",
+                "permalink": "/docs/html/perkenalan"
+              },
+              "next": {
+                "title": "Tag dan Element pada HTML",
+                "permalink": "/docs/html/tag-dan-elemen-html"
+              }
+            },
+            {
+              "unversionedId": "html/perkenalan",
+              "id": "html/perkenalan",
+              "title": "Perkenalan",
+              "description": "",
+              "source": "@site/docs/html/perkenalan.md",
+              "sourceDirName": "html",
+              "slug": "/html/perkenalan",
+              "permalink": "/docs/html/perkenalan",
+              "draft": false,
+              "editUrl": "https://github.com/fajarspace/kodelab-roadmap/tree/master/docs/html/perkenalan.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "title": "Perkenalan"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Belajar HTML",
+                "permalink": "/docs/category/belajar-html"
+              },
+              "next": {
+                "title": "Basic HTML",
+                "permalink": "/docs/html/basic-html"
+              }
+            },
+            {
+              "unversionedId": "html/struktur-dasar-html",
+              "id": "html/struktur-dasar-html",
+              "title": "Struktur dasar HTML",
+              "description": "",
+              "source": "@site/docs/html/struktur-dasar-html.md",
+              "sourceDirName": "html",
+              "slug": "/html/struktur-dasar-html",
+              "permalink": "/docs/html/struktur-dasar-html",
+              "draft": false,
+              "editUrl": "https://github.com/fajarspace/kodelab-roadmap/tree/master/docs/html/struktur-dasar-html.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3,
+                "title": "Struktur dasar HTML"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Tag dan Element pada HTML",
+                "permalink": "/docs/html/tag-dan-elemen-html"
+              },
+              "next": {
+                "title": "Belajar C++",
+                "permalink": "/docs/category/belajar-c"
+              }
+            },
+            {
+              "unversionedId": "html/tag-dan-elemen-html",
+              "id": "html/tag-dan-elemen-html",
+              "title": "Tag dan Element pada HTML",
+              "description": "",
+              "source": "@site/docs/html/tag-dan-elemen-html.md",
+              "sourceDirName": "html",
+              "slug": "/html/tag-dan-elemen-html",
+              "permalink": "/docs/html/tag-dan-elemen-html",
+              "draft": false,
+              "editUrl": "https://github.com/fajarspace/kodelab-roadmap/tree/master/docs/html/tag-dan-elemen-html.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2,
+                "title": "Tag dan Element pada HTML"
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Basic HTML",
+                "permalink": "/docs/html/basic-html"
+              },
+              "next": {
+                "title": "Struktur dasar HTML",
+                "permalink": "/docs/html/struktur-dasar-html"
+              }
+            },
+            {
               "unversionedId": "intro",
               "id": "intro",
               "title": "Tutorial Intro",
@@ -201,8 +313,8 @@
                 "permalink": "/docs/category/roadmaps"
               },
               "next": {
-                "title": "C++",
-                "permalink": "/docs/category/c"
+                "title": "Belajar HTML",
+                "permalink": "/docs/category/belajar-html"
               }
             },
             {
@@ -507,7 +619,36 @@
               },
               {
                 "type": "category",
-                "label": "C++",
+                "label": "Belajar HTML",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "html/perkenalan"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "html/basic-html"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "html/tag-dan-elemen-html"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "html/struktur-dasar-html"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/belajar-html",
+                  "permalink": "/docs/category/belajar-html"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Belajar C++",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
@@ -534,8 +675,8 @@
                 ],
                 "link": {
                   "type": "generated-index",
-                  "slug": "/category/c",
-                  "permalink": "/docs/category/c"
+                  "slug": "/category/belajar-c",
+                  "permalink": "/docs/category/belajar-c"
                 }
               }
             ]

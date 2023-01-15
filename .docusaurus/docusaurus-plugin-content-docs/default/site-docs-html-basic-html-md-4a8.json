@@ -1,0 +1,28 @@
+{
+  "unversionedId": "html/basic-html",
+  "id": "html/basic-html",
+  "title": "Basic HTML",
+  "description": "",
+  "source": "@site/docs/html/basic-html.md",
+  "sourceDirName": "html",
+  "slug": "/html/basic-html",
+  "permalink": "/docs/html/basic-html",
+  "draft": false,
+  "editUrl": "https://github.com/fajarspace/kodelab-roadmap/tree/master/docs/html/basic-html.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Basic HTML"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Perkenalan",
+    "permalink": "/docs/html/perkenalan"
+  },
+  "next": {
+    "title": "Tag dan Element pada HTML",
+    "permalink": "/docs/html/tag-dan-elemen-html"
+  }
+}
